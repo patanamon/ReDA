@@ -1,0 +1,436 @@
+{% include "commons/header.html" %}
+{% include "commons/top_menu.html" with page="activity" %}
+<style>
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.browser text,
+.browser2 text {
+  text-anchor: end;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.current_value {
+  position: absolute;
+  /*top: 100px;
+  left: 100px;*/
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  /* background: #222222; */
+  background: #fff;
+  /* color: #eeeeee; */
+  color: black;
+  padding: 10px;
+  width: 300px;
+  font-size: 12px;
+  z-index: 10;
+}
+
+.tmp {
+  background-color: yellow;
+}
+
+.release_label {
+
+  -webkit-transform: rotate(-90deg);  /* Chrome, Safari 3.1+ */
+     -moz-transform: rotate(-90deg);  /* Firefox 3.5-15 */
+      -ms-transform: rotate(-90deg);  /* IE 9 */
+       -o-transform: rotate(-90deg);  /* Opera 10.50-12.00 */
+          transform: rotate(-90deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.releases {
+  z-index: 999;
+}
+</style>
+
+  <div class="container">
+    <div class="page-header">
+      <h1 style="display:inline-block;">Activity Statistic</h1>
+      <p class="lead" style="display:inline-block; margin-bottom:10px; margin-left:20px;">
+        Overall activity in a day
+      </p>
+      <div class="col-md-4 pull-right" style="margin-top:35px;">
+        <a href="javascript:download_all()" class="btn btn-primary pull-right">Download All</a> 
+        <a href="javascript:download_focus()" class="btn btn-info pull-right" style="margin-right:5px; display:none;" id="download_focus">Download Focused Period</a>
+      </div>
+    
+    </div>
+    <div id="download" class="row" style="display:none;">
+        <div class="text-center" style="padding-top:200px; margin:0 auto; width:200px;" >
+            <img src="{{STATIC_URL}}assets/ico/loading.gif" height="50px"><br/>
+            <em>Loading. Please wait.</em>
+        </div>
+    </div>
+    <div id="chart" class="col-md-11">
+    </div>
+    <div class="row">
+      <div class="col-md-11" style="height:30px">
+      <a id="clear-btn" onclick="brush_reset()" class="pull-right btn btn-default btn-xs" style="display:none;">Clear Focus</a>
+      <span id="focus_info" class="pull-right"></span>
+    </div>
+    </div>
+
+  </div><!--Container-->
+
+{% include "commons/footer.html"%}
+<script src="{{STATIC_URL}}d3/d3.v3.min.js"></script>
+<script src="{{STATIC_URL}}assets/js/convert_base64.js"></script>
+<script>
+var releases = [
+      {"date":"30/04/2009","name":"Cupcake (v 1.5)"},
+      {"date":"15/09/2009","name":"Donut (v 1.6)"},
+      {"date":"26/10/2009","name":"Eclair (v 2.0–2.1)"},
+      {"date":"20/05/2010","name":"Froyo (v 2.2)"},
+      {"date":"06/12/2010","name":"Gingerbread (v 2.3-2.3.2)"},
+      {"date":"09/02/2011","name":"Gingerbread (v 2.3.3-2.3.7)"},
+      {"date":"10/05/2011","name":"Honeycomb (v 3.1)"},
+      {"date":"15/06/2011","name":"Honeycomb (v 3.2)"}]
+
+var margin = {top: 10, right: 10, bottom: 100, left: 40},
+    width = 1050 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var margin2 = {top: 430, right: 10, bottom: 20, left: 40},
+    height2 = 500 - margin2.top - margin2.bottom;
+
+var x = d3.time.scale().range([0, width]),
+    y = d3.scale.linear().range([height, 0]),
+    x2 = d3.time.scale().range([0, width]),
+    y2 = d3.scale.linear().range([height2, 0]);
+
+var xAxis = d3.svg.axis().scale(x).orient("bottom"),
+    xAxis2 = d3.svg.axis().scale(x2).orient("bottom"),
+    yAxis = d3.svg.axis().scale(y).orient("left");
+
+var color = d3.scale.category20(),
+    bisectDate = d3.bisector(function(d) { return d.date; }).left;
+
+var area = d3.svg.area()
+    .interpolate("basic")
+    .x(function(d) { return x(d.date); })
+    .y0(height)
+    .y1(function(d) { return y(d.y0 + d.y); });
+
+var area2 = d3.svg.area()
+    .interpolate("basic")
+    .x(function(d) { return x2(d.date); })
+    .y0(height2)
+    .y1(function(d) { return y2(d.y0 + d.y); });
+
+var brush = d3.svg.brush().x(x2).on("brush", brushed);
+var parse = d3.time.format("%d/%m/%Y").parse;
+var format = d3.time.format("%d/%m/%Y");
+
+var stack = d3.layout.stack()
+    .values(function(d) { return d.values; });
+
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .style("margin","0 auto;");
+  
+svg.append("defs").append("clipPath")
+    .attr("id", "clip")
+  .append("rect")
+    .attr("width", width)
+    .attr("height", height);
+
+var focus = svg.append("g")
+    .attr("class","focus")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var context = svg.append("g")
+    .attr("class","context")
+    .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+
+var rule = svg.append("g")
+      .attr("class", "rule")
+      .style("display", "none");
+
+
+
+var browser, rule, current_val,release_lines;
+
+
+
+//d3.csv("/dat/activity_stat/android", function(data) {
+d3.csv("{{STATIC_URL}}dat/activity_stat_android.csv", function(data) {
+
+  
+  symbols = d3.nest()
+      .key(function(d) { return d.name; })
+      .entries(values = data);
+  symbols.forEach(function(s) {
+    s.values.forEach(function(d) { d.date = parse(d.date); d.y = +d.y; });
+    s.maxPrice = d3.max(s.values, function(d) { return d.y; });
+    s.sumPrice = d3.sum(s.values, function(d) { return d.y; });
+  });
+  //symbols.sort(function(a, b) { return b.maxPrice - a.maxPrice; });
+
+  /*brush.extent(
+    d3.min(symbols[0].values.map(function(d){return d.date;})),
+    d3.max(symbols[0].values.map(function(d){return d.date;}))
+  );*/
+
+  var stack = d3.layout.stack()
+      .values(function(d) { return d.values; })
+      .x(function(d) { return d.date; })
+      .y(function(d) { return d.y; })
+      .out(function(d, y0, y) { d.y0 = y0; })
+      .order("reverse");
+
+  var browsers = stack(symbols);
+
+  x.domain(d3.extent(data, function(d) { return d.date; }));
+
+  y.domain([0, d3.max(symbols[0].values.map(function(d) { return d.y + d.y0; }))])
+  .range([height, 0]);
+
+  x2.domain(x.domain());
+  y2.domain(y.domain()).range([height2, 0]);
+
+
+
+
+  browser = focus.selectAll(".browser")
+      .data(browsers)
+    .enter().append("g")
+      .attr("class", "browser");
+
+  browser.append("path")
+      .attr("class", "area")
+      .attr("clip-path", "url(#clip)")
+      .attr("d", function(d) { return area(d.values); })
+      .style("fill", function(d) { return color(d.key); });
+
+
+
+  focus.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  focus.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+
+
+
+  var browser2 = context.selectAll(".browser2")
+      .data(browsers)
+    .enter().append("g")
+      .attr("class", "browser2");
+
+  browser2.append("path")
+      .attr("class", "area")
+      .attr("d", function(d) { return area2(d.values); })
+      .style("fill", function(d) { return color(d.key); });
+
+  context.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height2 + ")")
+      .call(xAxis2);
+
+  context.append("g")
+      .attr("class", "x brush")
+      .call(brush)
+    .selectAll("rect")
+      .attr("y", -6)
+      .attr("height", height2 + 7);
+
+
+  release_lines = focus.append("g").attr("class", "releases");
+  var context_release_lines = context.append("g").attr("class", "releases");
+
+  releases.forEach(function(d){
+    var l = release_lines.append("g")
+    .attr("class","releases-lines")
+    .attr("transform","translate("+ x(parse(d.date)) +", 10 )")
+    .datum(parse(d.date));
+
+    l.append("line")
+    .style("stroke","#000")
+    .style("stroke-width","1")
+    .style("stroke-dasharray","2,2")
+    .attr("x1", 0)
+    .attr("x2", 0)
+    .attr("y1", 0)
+    .attr("y2",height);
+    
+    l.append("text")
+    .text(d.name)
+    .attr("class","release_label")
+    .style("-ms-transform","rotate(-90deg)")
+    .attr("x",function(){return -1 * $(this).width();})
+    .attr("y",-5);
+    //label.attr("y",label.width());
+
+    var l = context_release_lines.append("g")
+    .attr("class","releases-lines")
+    .attr("transform","translate("+ x2(parse(d.date)) +", 0 )");
+    l.append("line")
+    .style("stroke","#000")
+    .style("stroke-width","1")
+    .style("stroke-dasharray","2,2")
+    .attr("x1", 0)
+    .attr("x2", 0)
+    .attr("y1", 0)
+    .attr("y2",height2);
+  });
+
+  
+  rule.append("rect")
+  .attr("width", 1)
+  .attr("height", height)
+  .attr("stroke-width","2")
+  .attr("transform", "translate( "+ margin.left+" ," + margin.top + ")");
+  
+
+  svg.append("rect")
+      .attr("class", "overlay")
+      .attr("width", width)
+      .attr("height", height)
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .on("mouseover", function() { rule.style("display", null); current_val.style("display", null);})
+      .on("mouseout", function() { rule.style("display", "none"); current_val.style("display", "none");})
+      .on("mousemove", mousemove);
+
+  current_val = svg.append("svg:foreignObject")
+  .attr("class","current_value")
+  .attr('width', 150)
+  .attr('height', 150)
+  .attr("x", width-100)
+  .attr("dy", ".35em")
+  .style("display","none");
+
+  //$('#download').remove();
+  $('#chart').fadeIn("medium");
+  
+
+});
+function mousemove() {
+    var x0 = x.invert(d3.mouse(this)[0]);
+    var x1 = d3.time.day(x0);
+    var content = "<strong>"+x1.getDate()+"/"+(x1.getMonth()+1)+"/"+x1.getFullYear()+"</strong><br/>";
+    symbols.forEach(function(d){
+      var i = bisectDate(d.values,x1,1);
+      /* If it over the missing value period should show 0 */
+      if(format(d.values[i].date) != format(x1)){
+        content += "<div style='margin-right:10px; display:inline-block; width:10px; height:10px; background-color:"+color(d.key)+";'></div>"+d.key+": 0 <br/>";
+      }else{
+        content += "<div style='margin-right:10px; display:inline-block; width:10px; height:10px; background-color:"+color(d.key)+";'></div>"+d.key+": "+d.values[i].y+"<br/>";
+      }
+      
+    });    
+
+    current_val.selectAll("div").remove();
+    current_val.append("xhtml:div")
+    .html(content);
+    rule.attr("transform", "translate(" + x(x1) + ", 0)");
+  }
+
+function brushed() {
+  if (!d3.event.sourceEvent) return; // only transition after input
+  var extent = brush.extent();
+  extent[0] = d3.time.day.floor(extent[0]);
+  extent[1] = d3.time.day.ceil(extent[1]);
+  var min_day = 10,
+      diff_day = Math.round((extent[1] - extent[0]) / 864e5);
+  if( diff_day< min_day)
+  {
+    extent[1] = d3.time.day.offset(extent[0],min_day);
+  }
+
+  d3.select(this).transition()
+      .call(brush.extent(extent))
+      .call(brush.event);
+
+  $('#clear-btn').show();
+  $("#download_focus").show();
+  $("#focus_info").text("Focus Period: "+format(extent[0])+" - "+format(extent[1]));
+  x.domain(brush.empty() ? x2.domain() : brush.extent());
+  browser.select("path").attr("d", function(d) { return area(d.values); });
+  focus.select(".x.axis").call(xAxis);
+
+  release_lines.selectAll("g").attr("transform",function(d){ return "translate("+ x(d) +", 0 )"});
+
+  
+}
+
+function brush_reset(){
+  d3.select(".brush").call(brush.clear());
+  x.domain(brush.empty() ? x2.domain() : brush.extent());
+  browser.select("path").attr("d", function(d) { return area(d.values); });
+  focus.select(".x.axis").call(xAxis);
+
+  release_lines.selectAll("g").attr("transform",function(d){ return "translate("+ x(d) +", 0 )"});
+  $('#clear-btn').hide();
+  $("#download_focus").hide();
+  $("#focus_info").text("");
+}
+
+function transform_data(start_index,end_index){
+  var export_data = [];
+  for(var i = start_index; i <= end_index; i++){
+    var obj = {
+      date: format(symbols[0].values[i].date),
+      create_review:0,
+      submit_patch:0,
+      code_review:0,
+      verify:0,
+      merge:0,
+      abandon:0,
+      comment:0
+    }
+    symbols.forEach(function(d){
+        if(d.key == "Create Review"){
+          obj.create_review = d.values[i].y;
+        }else if(d.key == "Submit Patch"){
+          obj.submit_patch = d.values[i].y;
+        }else if(d.key == "Merged"){
+          obj.merge = d.values[i].y;
+        }else if(d.key == "Abandon"){
+          obj.abandon = d.values[i].y;
+        }else if(d.key == "Code Review"){
+          obj.code_review = d.values[i].y;
+        }else if(d.key == "Verify"){
+          obj.verify = d.values[i].y;
+        }else if(d.key == "Comment"){
+          obj.comment = d.values[i].y
+        }else{
+          console.log("Error");
+        }
+    });
+    export_data.push(obj);
+  }
+  return export_data;
+}
+
+function download_focus(){
+  var extent = brush.extent();
+  var start_index = bisectDate(symbols[0].values,extent[0],1)
+  var end_index = bisectDate(symbols[0].values,extent[1],1)
+  document.location.href="data:application/octet-stream;charset=utf-8;base64,"+Base64.encode(d3.csv.format(transform_data(start_index,end_index)));
+}
+
+function download_all(){
+  document.location.href="data:application/octet-stream;charset=utf-8;base64,"+Base64.encode(d3.csv.format(transform_data(0,symbols[0].values.length-1)));
+}
+</script>

@@ -1,0 +1,549 @@
+{% include "commons/header.html" %}
+{% include "commons/top_menu.html" with page="review_stat" %}
+<style>
+.background.bar {
+  fill: #ccc;
+}
+
+.foreground.bar {
+  fill: steelblue;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.brush rect.extent {
+  fill: steelblue;
+  fill-opacity: .125;
+}
+
+.brush .resize path {
+  fill: #eee;
+  stroke: #666;
+}
+
+a.popover-link{
+  cursor: pointer;
+}
+.popover-title,
+.popover-content{
+  color:black;
+}
+
+.popover-content{
+  font-size: 13px;
+}
+
+#review-list .review div {
+  display: inline-block;
+  width: 100px;
+}
+
+</style>
+
+<div class="container">
+  <div class="page-header">
+    <h1 style="display:inline-block;">Review Statistic</h1>
+    <p class="lead" style="display:inline-block; margin-bottom:10px; margin-left:20px;">
+      Exploring correlation in review data
+    </p>
+  </div>  
+  <div id="download" class="row">
+    <div class="text-center col-centered" style="width:200px; margin-top:100px;" >
+        <img src="{{STATIC_URL}}assets/ico/loading.gif" height="50px"><br/>
+        <em>The graphs are downloading. Please wait.</em>
+    </div>
+  </div>
+  <div id="charts" style="display: none;">
+    <div class="row">
+      <div class="col-md-8">
+        Predefined focus: <a class="btn btn-default btn-xs" href="javascript:filter([[new Date(2010,00,01),new Date(2011,0,0)],null, null , null, null])">Reviews in 2010</a> <a class="btn btn-default btn-xs" href="javascript:filter([null,null, null , null, [8,30]])">High number of comments</a> 
+        <!--<a class="btn btn-default btn-xs" href="javascript:filter([null,[7,15], null , [1,3], null])">High number of reviewers but low  files</a>-->
+      </div>
+      <div class="col-md-4 text-right">
+        Download
+        <a href="javascript:download()" class="btn btn-primary" target="_blank"> Selected Data</a> or 
+        <a href="{{STATIC_URL}}dat/review_stat_android.csv" class="btn btn-info"> All Data</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-9 col-md-3 text-right">
+        <small><em>selected <span id="active"> - </span> of <span id="total"> - </span> reviews.</span></em></small>
+      </div>
+    </div>
+    <div class="row">
+      <div id="reviews-chart" class="chart col-md-12 text-center" >
+          <h4 class="title text-left">Number of Reviews 
+            <small>
+              <a class="popover-link" data-toggle="popover" title="" 
+              data-content="This graph shows the number of reviews created per week" >
+              <span class="glyphicon glyphicon-info-sign"></span></a></small>
+          </h4>   
+      </div>
+    </div>
+    <div class="row">
+      <div id="reviewers-chart" class="chart col-md-6">
+        <h4 class="title">Number of Reviewers
+          
+        </h4>
+      </div>
+      <div id="patchsets-chart" class="chart col-md-6">
+        <h4 class="title">Number of PatchSets
+          
+        </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div id="modify-files-chart" class="chart col-md-6">
+        <h4 class="title">Number of Modified Files
+         
+        </h4>
+      </div>
+      <div id="comments-chart" class="chart col-md-6">
+        <h4 class="title">Number of Comments
+          
+        </h4>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+{% include "commons/footer.html"%}
+<script src="{{STATIC_URL}}bootstrap/js/bootstrap.min.js"></script>
+<script src="{{STATIC_URL}}d3/crossfilter.v1.min.js"></script>
+<script src="{{STATIC_URL }}d3/d3.v3.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.popover-link').popover();
+  $('body').on('click', function (e) {
+    $('.popover-link').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+
+
+});
+});
+
+
+d3.csv("{{STATIC_URL}}dat/review_stat_android.csv", function(error, reviews) {
+//d3.csv("/dat/reviews_stat/android", function(error, reviews) {
+
+  // Various formatters.
+  var formatNumber = d3.format(",d"),
+      formatChange = d3.format("+,d"),
+      formatDate = d3.time.format("%B %d, %Y"),
+      parseDate = d3.time.format("%d/%m/%Y %H:%M:%S").parse;
+      formatTime = d3.time.format("%I:%M %p");
+
+  // A nest operator, for grouping the review list.
+  var nestByDate = d3.nest()
+      .key(function(d) { return d3.time.day(d.date); });
+
+  /*// A little coercion, since the CSV is untyped.
+  var max_date = NaN, min_date = NaN;
+  reviews.forEach(function(d, i) {
+    d.index = i;
+    d.date = parseDate(d.createddate);
+    if(isNaN(min_date) || min_date > d.date){
+      min_date = d.date;
+    }
+    if(isNaN(max_date) || max_date < d.date){
+      max_date = d.date;
+    }
+
+  });*/
+  reviews.forEach(function(d){
+    d.date = parseDate(d.createddate);
+  });
+
+  var min_date = d3.min(reviews,function(d){ return d.date;}),
+      max_date = d3.max(reviews,function(d){ return d.date;});
+
+  console.log(max_date);
+  // Create the crossfilter for the relevant dimensions and groups.
+  var review = crossfilter(reviews),
+  all = review.groupAll(),
+  date = review.dimension(function(d) { return d.date; }),
+  
+  dates = date.group(d3.time.day),
+  //dates = date.group();
+  
+  reviewer = review.dimension(function(d) { return d.reviewers; }),
+  reviewers = reviewer.group(),
+  patchset = review.dimension(function(d) { return d.patchsets; }),
+  patchsets = patchset.group(),
+  file = review.dimension(function(d) { return d.modifiedfiles; }),
+  files = file.group(),
+  comment = review.dimension(function(d) { return d.comments; }),
+  comments = comment.group();
+      
+      
+      /*delay = review.dimension(function(d) { return Math.max(-60, Math.min(149, d.delay)); }),
+      delays = delay.group(function(d) { return Math.floor(d / 10) * 10; }),
+      distance = review.dimension(function(d) { return Math.min(1999, d.distance); }),
+      distances = distance.group(function(d) { return Math.floor(d / 50) * 50; });*/
+
+  var charts = [
+      barChart()
+        .dimension(date)
+        .group(dates)
+        .round(d3.time.week.round)
+      .x(d3.time.scale()
+        .domain([min_date, new Date(max_date.getFullYear(),max_date.getMonth(),max_date.getDate()+10)])
+        .rangeRound([0, 1100]))
+        .filter([new Date(2010, 1, 1), new Date(2011, 12, 31)]),
+
+    barChart()
+        .dimension(reviewer)
+        .group(reviewers)
+      .x(d3.scale.linear()
+        .domain([0,15])
+        .rangeRound([0, 500])),
+
+    barChart()
+        .dimension(patchset)
+        .group(patchsets)
+      .x(d3.scale.linear()
+        .domain([0,15])
+        .rangeRound([0, 500])),
+
+    barChart()
+        .dimension(file)
+        .group(files)
+      .x(d3.scale.linear()
+        .domain([0,15])
+        .rangeRound([0, 500])),
+
+    barChart()
+        .dimension(comment)
+        .group(comments)
+      .x(d3.scale.linear()
+        .domain([0,30])
+        .rangeRound([0, 500]))
+
+  ];
+
+  // Given our array of charts, which we assume are in the same order as the
+  // .chart elements in the DOM, bind the charts to the DOM and render them.
+  // We also listen to the chart's brush events to update the display.
+  var chart = d3.selectAll(".chart")
+      .data(charts)
+      .each(function(chart) { chart.on("brush", renderAll).on("brushend", renderAll); });
+
+  // Render the initial lists.
+  /*var list = d3.selectAll(".list")
+      .data([reviewList]);*/
+
+  // Render the total.
+  d3.selectAll("#total")
+      .text(formatNumber(review.size()));
+
+  renderAll();
+
+  // Renders the specified chart or list.
+  function render(method) {
+    d3.select(this).call(method);
+  }
+
+  // Whenever the brush moves, re-rendering everything.
+  function renderAll() {
+    chart.each(render);
+    //list.each(render);
+    d3.select("#active").text(formatNumber(all.value()));
+    $('#download').remove();
+    $("#charts").fadeIn("slow");
+  }
+
+
+  window.filter = function(filters) {
+    filters.forEach(function(d, i) { charts[i].filter(d); });
+    renderAll();
+  };
+
+  window.reset = function(i) {
+    charts[i].filter(null);
+    renderAll();
+  };
+  window.download = function() {
+    //console.log(date.top(review.size()));
+    var exported = [];
+    date.top(review.size()).forEach(function(d){
+      exported.push({reviewid:d.reviewid,createddate:d.createddate,reviewers:d.reviewers,patchsets:d.patchsets,modifiedfiles:d.modifiedfiles,comments:d.comments});
+    });
+    console.log(exported);
+    document.location.href="data:application/octet-stream;charset=utf-8;base64,"+btoa(d3.csv.format(exported))
+    //data:application/octet-stream;charset=utf-8;base64,U29tZSBjb250ZW50
+    //return d3.csv.format(exported);
+  };
+
+  /*function reviewList(div) {
+    var reviewsByDate = nestByDate.entries(date.top(40));
+    div.each(function() {
+      var date = d3.select(this).selectAll(".date")
+          .data(reviewsByDate, function(d) { return d.key; });
+
+      date.enter().append("div")
+          .attr("class", "date")
+        .append("div")
+          .attr("class", "day")
+          .text(function(d) { return formatDate(d.values[0].date); });
+
+      date.exit().remove();
+
+      var review = date.order().selectAll(".review")
+          .data(function(d) { return d.values; }, function(d) { return d.index; });
+
+      var reviewEnter = review.enter().append("div")
+          .attr("class", "review");
+
+      reviewEnter.append("div")
+          .attr("class", "time")
+          .text(function(d) { return formatTime(d.date); });
+
+      reviewEnter.append("div")
+          .attr("class", "origin")
+          .text(function(d) { return d.origin; });
+
+      reviewEnter.append("div")
+          .attr("class", "destination")
+          .text(function(d) { return d.destination; });
+
+      reviewEnter.append("div")
+          .attr("class", "distance")
+          .text(function(d) { return formatNumber(d.distance) + " mi."; });
+
+      reviewEnter.append("div")
+          .attr("class", "delay")
+          .classed("early", function(d) { return d.delay < 0; })
+          .text(function(d) { return formatChange(d.delay) + " min."; });
+
+      review.exit().remove();
+
+      review.order();
+    });
+  }*/
+
+  function barChart() {
+    if (!barChart.id) barChart.id = 0;
+
+    var margin = {top: 10, right: 10, bottom: 20, left: 40},
+        x,
+        y = d3.scale.linear().range([150, 0]),
+        id = barChart.id++,
+        axis = d3.svg.axis().orient("bottom"),
+        
+        brush = d3.svg.brush(),
+        brushDirty,
+        dimension,
+        group,
+        round;
+
+    function chart(div) {
+      var width = x.range()[1],
+          height = y.range()[0];
+      y.domain([0, group.top(1)[0].value]);
+      div.each(function() {
+        var div = d3.select(this),
+            g = div.select("g");
+
+        // Create the skeletal chart.
+        if (g.empty()) {
+          reset_span = div.select(".title").append("span")
+              .attr("class", "pull-right focus-stat")
+              .style("display", "none");
+          reset_span.append("small").append("em")
+              .style("color","black")
+              .style("margin-right","5px")
+              .style("font-size","10px");
+          reset_span.append("a")
+              .attr("href", "javascript:reset(" + id + ")")
+              .attr("class", "reset btn btn-default btn-xs pull-right ")
+              .text("reset");
+
+
+          g = div.append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+              .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+          g.append("clipPath")
+              .attr("id", "clip-" + id)
+            .append("rect")
+              .attr("width", width)
+              .attr("height", height);
+
+          g.selectAll(".bar")
+              .data(["background", "foreground"])
+            .enter().append("path")
+              .attr("class", function(d) { return d + " bar"; })
+              .datum(group.all());
+
+          g.selectAll(".foreground.bar")
+              .attr("clip-path", "url(#clip-" + id + ")");
+
+          g.append("g")
+              .attr("class", "axis")
+              .attr("transform", "translate(0," + height + ")")
+              .call(axis);
+
+
+          // Initialize the brush component with pretty resize handles.
+          var gBrush = g.append("g").attr("class", "brush").call(brush);
+          gBrush.selectAll("rect").attr("height", height);
+          gBrush.selectAll(".resize").append("path").attr("d", resizePath);
+        }
+
+        // Only redraw the brush if set externally.
+        if (brushDirty) {
+          brushDirty = false;
+          g.selectAll(".brush").call(brush);
+          div.select(".title .focus-stat").style("display", brush.empty() ? "none" : null);
+          if (brush.empty()) {
+            g.selectAll("#clip-" + id + " rect")
+                .attr("x", 0)
+                .attr("width", width);
+          } else {
+            var extent = brush.extent();
+            g.selectAll("#clip-" + id + " rect")
+                .attr("x", x(extent[0]))
+                .attr("width", x(extent[1]) - x(extent[0]));
+            if(id == 0)
+              div.select(".title .focus-stat em").text("Focus on "+formatDate(extent[0])+" - "+formatDate(extent[1]));
+            /*else
+              div.select(".title .focus-stat em").text("Focus on "+extent[0]+" - "+extent[1]);*/
+          }
+        }
+
+        g.selectAll(".bar").attr("d", barPath);
+      });
+
+      function barPath(groups) {
+        var path = [],
+            i = -1,
+            n = groups.length,
+            d;
+        while (++i < n) {
+          d = groups[i];
+          path.push("M", x(d.key), ",", height, "V", y(d.value), "h9V", height);
+        }
+        return path.join("");
+      }
+
+      function resizePath(d) {
+        var e = +(d == "e"),
+            x = e ? 1 : -1,
+            y = height / 3;
+        return "M" + (.5 * x) + "," + y
+            + "A6,6 0 0 " + e + " " + (6.5 * x) + "," + (y + 6)
+            + "V" + (2 * y - 6)
+            + "A6,6 0 0 " + e + " " + (.5 * x) + "," + (2 * y)
+            + "Z"
+            + "M" + (2.5 * x) + "," + (y + 8)
+            + "V" + (2 * y - 8)
+            + "M" + (4.5 * x) + "," + (y + 8)
+            + "V" + (2 * y - 8);
+      }
+    }
+
+    brush.on("brushstart.chart", function() {
+      var div = d3.select(this.parentNode.parentNode.parentNode);
+      div.select(".title .focus-stat").style("display", null);
+    });
+
+    brush.on("brush.chart", function() {
+      var g = d3.select(this.parentNode),
+          extent = brush.extent();
+      if (round) g.select(".brush")
+          .call(brush.extent(extent = extent.map(round)))
+        .selectAll(".resize")
+          .style("display", null);
+      g.select("#clip-" + id + " rect")
+          .attr("x", x(extent[0]))
+          .attr("width", x(extent[1]) - x(extent[0]));
+
+      var div = d3.select(this.parentNode.parentNode.parentNode);
+      div.select(".title .focus-stat").style("display", null);
+      if(id == 0)
+        div.select(".title .focus-stat em").text("Focus on "+formatDate(extent[0])+" - "+formatDate(extent[1]));
+      /*else
+        div.select(".title .focus-stat em").text("Focus on "+extent[0]+" - "+extent[1]);*/
+      dimension.filterRange(extent);
+    });
+
+    brush.on("brushend.chart", function() {
+      if (brush.empty()) {
+        var div = d3.select(this.parentNode.parentNode.parentNode);
+        div.select(".title .focus-stat").style("display", "none");
+        div.select("#clip-" + id + " rect").attr("x", null).attr("width", "100%");
+        dimension.filterAll();
+      }
+    });
+
+    chart.margin = function(_) {
+      if (!arguments.length) return margin;
+      margin = _;
+      return chart;
+    };
+
+    chart.x = function(_) {
+      if (!arguments.length) return x;
+      x = _;
+      axis.scale(x);
+      brush.x(x);
+      return chart;
+    };
+
+    chart.y = function(_) {
+      if (!arguments.length) return y;
+      y = _;
+      return chart;
+    };
+
+    chart.dimension = function(_) {
+      if (!arguments.length) return dimension;
+      dimension = _;
+      return chart;
+    };
+
+    chart.filter = function(_) {
+      if (_) {
+        brush.extent(_);
+        dimension.filterRange(_);
+      } else {
+        brush.clear();
+        dimension.filterAll();
+      }
+      brushDirty = true;
+      return chart;
+    };
+
+    chart.group = function(_) {
+      if (!arguments.length) return group;
+      group = _;
+      return chart;
+    };
+
+    chart.round = function(_) {
+      if (!arguments.length) return round;
+      round = _;
+      return chart;
+    };
+
+    return d3.rebind(chart, brush, "on");
+  }
+});
+
+</script>

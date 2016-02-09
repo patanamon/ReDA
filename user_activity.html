@@ -1,0 +1,779 @@
+{% include "commons/header.html" %}
+{% include "commons/top_menu.html" with page="user" %}
+ <style>
+ .tooltip {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  /* background: #222222; */
+  background: #fff;
+  opacity: .9;
+  /* color: #eeeeee; */
+  color: black;
+  padding: 10px;
+  width: 300px;
+  font-size: 12px;
+  z-index: 10;
+}
+
+circle.graph:hover{
+  cursor: pointer;
+}
+
+.tooltip .title {
+  font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
+}
+
+.list-group-item{
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+}
+a.popover-link{
+  cursor: pointer;
+}
+</style>
+  <div id="container" class="container">
+    <div class="page-header">
+    <h1>Contributor Activities</h1>
+  </div>
+    <div id="main" role="main">
+      <div class="row">
+        <div id="view_selection" class="btn-group ">
+          <a href="#" id="all" class="btn active btn-default btn-xs">All</a>   
+          <a href="#" id="year" class="btn btn-default btn-xs">First Year</a>
+          <a href="#" id="activity" class="btn btn-default btn-xs">First Contribution</a>
+          <a href="#" id="most_activity" class="btn btn-default btn-xs">The Highest Number of Contribution</a>
+          <a href="#" id="email" class="btn btn-default btn-xs">Email Domain</a>
+        </div>
+        <small>
+              <a class="popover-link" data-toggle="popover" title="" 
+              data-content="
+                This will separate users into groups corresponding to the condition.
+              " >
+              <span class="glyphicon glyphicon-info-sign"></span></a></small>
+         <a href="javascript:export_node()" class="btn btn-info pull-right"> Download showing nodes</a>
+        <form class="form-inline pull-right" role="form" style="margin-top:7px; margin-right:5px;">
+        <label>Minimum #Contribution</label>
+          <select id="minimum_activity" onchange="render(this.selectedIndex);">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6" selected>6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </form>
+      </div>
+      
+      <div id="download" class="row" style="display:none;">
+        <div class="text-center" style="padding-top:150px;position:absolute; width:1200px;" >
+            <img src="{{STATIC_URL}}assets/ico/loading.gif" height="50px"><br/>
+            <em>Loading. Please wait.</em>
+        </div>
+      </div>
+      <div id="vis" class="row" style="height:600px; margin-top:10px">
+        <div class="well col-md-2" style="padding:15px;">
+          <h4>Contribution Abbr.</h4>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong>O</strong> - Create Review
+            </li>
+            <li class="list-group-item">
+              <strong>R</strong> - Code Review
+            </li>
+            <li class="list-group-item">
+              <strong>V</strong> - Verify
+            </li>
+            <li class="list-group-item">
+              <strong>C</strong> - Comment
+            </li>
+          </ul>
+          <h4>Bubble Size</h4>
+          Number of Total Contribution (O + V + R + C)
+          <h4>Color of Bubble</h4>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#417898" stroke-width="2" fill="#5EACDA"/> 
+              </svg>
+              OVRC
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#aca56d" stroke-width="2" fill="#F6EC9C"/> 
+              </svg>
+              ORC
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#8e0e37" stroke-width="2" fill="#CC144F"/> 
+              </svg>
+              VRC
+            </li>
+            <li class="list-group-item">
+              <svg  height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#0b713a" stroke-width="2" fill="#10A254"/> 
+              </svg>
+              RC
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#620b69" stroke-width="2" fill="#8D1096"/> 
+              </svg>
+              VR
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#04104f" stroke-width="2" fill="#071871"/> 
+              </svg>
+              OC
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#86aa00" stroke-width="2" fill="#C0F400"/> 
+              </svg>
+              VC
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#b26f00" stroke-width="2" fill="#FF9F00"/> 
+              </svg>
+              R
+            </li>
+            <li class="list-group-item">
+              <svg height="30" width="30" style="margin-right: 20px;vertical-align: middle;">
+                <circle cx="15" cy="15" r="10" stroke="#605d5f" stroke-width="2" fill="#8A8588"/> 
+              </svg>
+              Other
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row text-right">
+         <p id="small_stat" class="pull-right" style="display:none;">
+      <span class="pull-right">Show <em id="cnt_show"></em> users from <em id="cnt_all"></em> users</span><br/>
+      <!--<small>*These showing contributors are who have the start year information and number of activity more than minimum activity.</small>-->
+    </p>
+    </div>
+</div>
+{% include "commons/footer.html"%}
+
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+  <!--<script>window.jQuery || document.write('<script src="{{STATIC_URL}}d3/animated_bubble/jquery-1.6.2.min.js"><\/script>')</script><script src="{{STATIC_URL}}d3/animated_bubble/jquery-1.6.2.min.js"></script>-->
+  <script src="{{STATIC_URL}}d3/ga.js"></script>
+  <script src="{{STATIC_URL}}d3/animated_bubble/modernizr-2.0.6.min.js"></script>
+  <script defer="" src="{{STATIC_URL}}d3/animated_bubble/plugins.js"></script>
+  <script defer="" src="{{STATIC_URL}}d3/animated_bubble/script.js"></script>
+  <script src="{{STATIC_URL}}d3/animated_bubble/CustomTooltip.js"></script>
+  <script src="{{STATIC_URL}}d3/animated_bubble/coffee-script.js"></script>
+  <script src="{{STATIC_URL}}assets/js/convert_base64.js"></script>
+  <script src="{{STATIC_URL}}d3/d3.v3.min.js"></script>
+ <!-- <script src="{{STATIC_URL}}d3/d3.csv.min.js"></script>-->
+  <script src="{{STATIC_URL}}d3/d3.layout.min.js"></script>
+  <script src="{{STATIC_URL}}d3/animated_bubble/d3.geom.min.js"></script>
+  <script src="{{STATIC_URL}}bootstrap/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $(document).ready(function() {
+          $('#view_selection a').click(function() {
+            var view_type = $(this).attr('id');
+            $('#view_selection a').removeClass('active');
+            $(this).toggleClass('active');
+            toggle_view(view_type);
+            return false;
+          });
+          $('.popover-link').popover({
+            html:true
+          });
+          $('body').on('click', function (e) {
+    $('.popover-link').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+    });
+        });
+    });
+  </script>
+  <div class="tooltip" id="gates_tooltip" style="width: 240px; display: none; top: 149px; left: 819px;">
+    <span class="name">Name:</span><span class="value"> Intensive Partnerships to Empower Effective Teachers</span><br>
+    <span class="name">Total Activitiy:</span><span class="value"> $90,000,000</span><br><span class="name">Fist Year Contribute:</span><span class="value"> 2009</span><span class="name">Fist Activity Contribute:</span><span class="value"> 2009</span></div>
+
+<script type="text/javascript">
+var BubbleChart, root,
+  __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+
+BubbleChart = (function() {
+
+  function BubbleChart(data,min_activity) {
+    this.hide_details = __bind(this.hide_details, this);
+
+    this.show_details = __bind(this.show_details, this);
+
+    this.hide_label = __bind(this.hide_label, this);
+
+    this.display_activity = __bind(this.display_activity, this);
+
+    this.display_year = __bind(this.display_year, this);
+
+    this.move_towards_group = __bind(this.move_towards_group, this);
+
+    this.display_by_activity = __bind(this.display_by_activity, this);
+
+    this.move_towards_center = __bind(this.move_towards_center, this);
+
+    this.display_group_all = __bind(this.display_group_all, this);
+
+    this.start = __bind(this.start, this);
+
+    this.create_vis = __bind(this.create_vis, this);
+
+    this.create_nodes = __bind(this.create_nodes, this);
+
+    var max_amount;
+    this.min_activity = min_activity;
+    this.data = data;
+    this.width = 940;
+    this.height = 600;
+    this.tooltip = CustomTooltip("gates_tooltip", 240);
+    this.center = {
+      x: this.width / 2,
+      y: this.height / 2
+    };
+    
+    this.activity_centers = {
+      "Submit Review": {
+        x: 3 * this.width / 8,
+        y: this.height / 2
+      },
+      "CodeReview": {
+        x: 3 * this.width / 4,
+        y: this.height / 3
+      },
+      "Comment": {
+        x: 1.25 * this.width / 2,
+        y: 5 * this.height / 8
+      },
+      "Verify": {
+        x: 3 * this.width / 4,
+        y: 1.5 * this.height / 3
+      }
+    };
+
+    this.most_activity_centers = {
+      "Submit Review": {
+        x: 2.4 * this.width / 8,
+        y: 0.8 * this.height / 2
+      },
+      "CodeReview": {
+        x: 2.5 * this.width / 4,
+        y: 1 *  this.height / 3
+      },
+      "Comment": {
+        x:  0.75 * this.width / 2,
+        y: 4.5 * this.height / 8
+      },
+      "Verify": {
+        x: 2.4 * this.width / 4,
+        y: 1.5 * this.height / 3
+      }
+    };
+
+    this.year_centers = {
+      2008: {
+        x: this.width / 3,
+        y: 1.1 * this.height / 3
+      },
+      2009: {
+        x: 1.8 * this.width / 3,
+        y: 1.3 * this.height / 3
+      },
+      2010: {
+        x: 1.8 * this.width / 3,
+        y: 1.8 * this.height / 3
+      },
+      2011: {
+        x: 0.8 * this.width / 2,
+        y: 1.8 * this.height / 3
+      },
+      2012: {
+        x: this.width / 3,
+        y: 1.5 * this.height / 3
+      }
+    };
+    this.email_centers = {
+      "gmail.com": {
+        x: 1.5 * this.width / 5,
+        y: 3 * this.height / 5
+      },
+      "google.com": {
+        x: 1.5 * this.width / 5,
+        y: 2 * this.height / 5
+      },
+      "ti.com": {
+        x: 2.5 * this.width / 5,
+        y: 1.5 * this.height / 5
+      },
+      "android.com": {
+        x: 3.5 * this.width / 5,
+        y: 2 * this.height / 5
+      },
+      "codeaurora.org": {
+        x: 2 * this.width / 5,
+        y: 2.5*this.height / 5
+      },
+      "others": {
+        x: 3 * this.width / 5,
+        y: 3 * this.height / 5
+      }
+    };
+    this.layout_gravity = -0.01;
+    this.damper = 0.1;
+    this.vis = null;
+    this.nodes = [];
+    this.force = null;
+    this.circles = null;
+    this.fill_color = d3.scale.ordinal()
+    .domain(["OVRC", "ORC" ,"VRC", "RC",　"VR",　"OC", "VC",　 "R", "OVR", "OVC","OV","OR","O","V","C"])
+    .range(["#5EACDA", "#F6EC9C", "#CC144F", "#10A254","#8D1096","#071871","#C0F400","#FF9F00","#8A8588","#8A8588","#8A8588","#8A8588","#8A8588","#8A8588","#8A8588"]);
+    max_amount = d3.max(this.data, function(d) {
+      total = parseInt(d.own) + parseInt(d.codereview) + parseInt(d.verify) + parseInt(d.comment)
+      return parseInt(total);
+    });
+    this.radius_scale = d3.scale.pow().exponent(0.5).domain([0, max_amount]).range([2, 70]);
+    this.create_nodes();
+    this.create_vis();
+  }
+
+  BubbleChart.prototype.create_nodes = function() {
+    var _this = this;
+    var parseDate = d3.time.format("%d/%m/%Y").parse;
+    this.data.forEach(function(d) {
+      var node;
+
+      d.own = parseInt(d.own);
+      d.codereview = parseInt(d.codereview);
+      d.verify = parseInt(d.verify);
+      d.comment = parseInt(d.comment);
+      var total = (d.own+d.verify+d.codereview+d.comment);
+
+      start_activity = "";
+      start_year = "";
+      group = "";
+      most_activity = "";
+      max_act = 0;
+      if(d.own > max_act)
+      {
+        max_act = d.own;
+        most_activity = "Submit Review";
+      }
+
+      if(d.codereview > max_act)
+      {
+        max_act = d.codereview;
+        most_activity = "CodeReview";
+      }
+
+      if(d.verify > max_act)
+      {
+        max_act = d.verify;
+        most_activity = "Verify";
+      }
+
+      if(d.comment > max_act)
+      {
+        max_act = d.comment;
+        most_activity = "Comment";
+      }
+
+      if ( d.start_own ){
+        group += "O";
+        
+        date = parseDate(d.start_own);
+        if(date && (start_year == "" || date < start_year) && date.getFullYear() >= 2008 ){
+          start_year = date;
+          start_activity = "Submit Review";
+        }           
+      }
+      if ( d.start_verify ){
+        group += "V";
+        date = parseDate(d.start_verify);
+        if(date && (start_year == "" || date < start_year) && date.getFullYear() >= 2008 ){
+          start_year = date
+          start_activity = "Verify";
+        }           
+      }
+
+      if ( d.start_codereview ){
+        group += "R";
+        date = parseDate(d.start_codereview);
+        if(date && (start_year == ""||  date < start_year) && date.getFullYear() >= 2008 ){
+          start_year = date
+          start_activity = "CodeReview";
+        }           
+      }
+
+      if (d.start_comment){
+        group += "C";
+        date = parseDate(d.start_comment);
+        if(date && (start_year == "" || d < start_year) && date.getFullYear() >= 2008){
+          start_year = date
+          start_activity = "Comment";
+        }           
+      }
+      if(!isNaN(total) && total >= _this.min_activity && start_year ){ 
+        node = {
+          id: d.id,
+          radius: _this.radius_scale(total),
+          value: total,
+          name: d.name,
+          email:d.email,
+          email_domain: d.email_domain,
+          group: group,
+          year: start_year.getFullYear(),
+          activity: start_activity,
+          own: +d.own,
+          codereview: +d.codereview,
+          verify: +d.verify,
+          comment: +d.comment,
+          most_activity: most_activity,
+          max_activity: max_act,
+          x: Math.random() * 940,
+          y: Math.random() * 600,
+
+        };
+        return _this.nodes.push(node);
+      }
+
+    });
+    return this.nodes.sort(function(a, b) {
+      return b.value - a.value;
+    });
+  };
+
+  BubbleChart.prototype.create_vis = function() {
+    var that,
+      _this = this;
+    this.vis = d3.select("#vis").append("svg").attr("width", this.width).attr("height", this.height).attr("id", "svg_vis").attr("class","col-md-10");
+    this.circles = this.vis.selectAll("circle").data(this.nodes, function(d) {
+      return d.id;
+    });
+    that = this;
+    this.circles.enter().append("circle").attr("r", 0).attr("fill", function(d) {
+      return _this.fill_color(d.group);
+    }).attr("stroke-width", 2).attr("stroke", function(d) {
+      return d3.rgb(_this.fill_color(d.group)).darker();
+    }).attr("id", function(d) {
+      return "bubble_" + d.id;
+    }).on("mouseover", function(d, i) {
+      return that.show_details(d, i, this);
+    }).on("mouseout", function(d, i) {
+      return that.hide_details(d, i, this);
+    }).on("click",function(d,i){
+      
+    }).attr("class","graph");
+    return this.circles.transition().duration(2000).attr("r", function(d) {
+      return d.radius;
+    });
+  };
+
+  BubbleChart.prototype.charge = function(d) {
+    return -Math.pow(d.radius, 2.0) / 6;
+  };
+
+  BubbleChart.prototype.start = function() {
+    return this.force = d3.layout.force().nodes(this.nodes).size([this.width, this.height]);
+  };
+
+  BubbleChart.prototype.display_group_all = function() {
+    var _this = this;
+    this.force.gravity(this.layout_gravity).charge(this.charge).friction(0.9).on("tick", function(e) {
+      return _this.circles.each(_this.move_towards_center(e.alpha)).attr("cx", function(d) {
+        return d.x;
+      }).attr("cy", function(d) {
+        return d.y;
+      });
+    });
+    this.force.start();
+    return this.hide_label();
+  };
+
+  BubbleChart.prototype.move_towards_center = function(alpha) {
+    var _this = this;
+    return function(d) {
+      d.x = d.x + (_this.center.x - d.x) * (_this.damper + 0.02) * alpha;
+      return d.y = d.y + (_this.center.y - d.y) * (_this.damper + 0.02) * alpha;
+    };
+  };
+
+  BubbleChart.prototype.display_by_activity = function(type) {
+    var _this = this;
+    this.force.gravity(this.layout_gravity).charge(this.charge).friction(0.9).on("tick", function(e) {
+      return _this.circles.each(_this.move_towards_group(e.alpha,"activity",type)).attr("cx", function(d) {
+        return d.x;
+      }).attr("cy", function(d) {
+        return d.y;
+      });
+    });
+    this.force.start();
+    return this.display_activity(type);
+  };
+
+  BubbleChart.prototype.display_by_email = function() {
+    var _this = this;
+    this.force.gravity(this.layout_gravity).charge(this.charge).friction(0.9).on("tick", function(e) {
+      return _this.circles.each(_this.move_towards_group(e.alpha,"email",null)).attr("cx", function(d) {
+        return d.x;
+      }).attr("cy", function(d) {
+        return d.y;
+      });
+    });
+    this.force.start();
+    return this.display_email();
+  };
+
+  BubbleChart.prototype.display_by_year = function() {
+    var _this = this;
+    this.force.gravity(this.layout_gravity).charge(this.charge).friction(0.9).on("tick", function(e) {
+      return _this.circles.each(_this.move_towards_group(e.alpha,"year",null)).attr("cx", function(d) {
+        return d.x;
+      }).attr("cy", function(d) {
+        return d.y;
+      });
+    });
+    this.force.start();
+    return this.display_year();
+  };
+
+  BubbleChart.prototype.move_towards_group = function(alpha,group,type) {
+    var _this = this;
+    return function(d) {
+      var target;
+      if(group == "activity" && type =="first")
+        target = _this.activity_centers[d.activity];
+      else if(group == "activity" && type =="most")
+        target = _this.most_activity_centers[d.most_activity];
+      else if(group == "year"){
+        target = _this.year_centers[d.year];
+      }
+      else if(group == "email"){
+        target = _this.email_centers[d.email_domain];
+        if(typeof(target) == "undefined"){
+          target = _this.email_centers["others"];
+        }
+      }
+      d.x = d.x + (target.x - d.x) * (_this.damper + 0.02) * alpha * 1.1;
+      return d.y = d.y + (target.y - d.y) * (_this.damper + 0.02) * alpha * 1.1;
+    };
+  };
+
+  BubbleChart.prototype.display_activity = function(type) {
+    this.hide_label();
+    var years, years_data, years_x,
+      _this = this;
+    years_x = {
+      "Submit Review": this.width/3,
+      "CodeReview": 2 * this.width / 3 + 30,
+      "Verify": 2 * this.width / 3 +50,
+      "Comment": 2 * this.width / 3 - 20,
+    };
+    years_y = {
+      "Submit Review": 40,
+      "CodeReview": 40,
+      "Verify": this.height / 2,
+      "Comment": 2.5 * this.height / 3
+    };
+    years_data = d3.keys(years_x);
+    years = this.vis.selectAll(".group_label").data(years_data);
+    return years.enter().append("text").attr("class", "group_label lead").attr("x", function(d) {
+      return years_x[d];
+    }).attr("y", function(d) {
+      return years_y[d];
+    }).attr("text-anchor", "middle").text(function(d) {
+      return d;
+    });
+  };
+
+  BubbleChart.prototype.display_email = function() {
+    this.hide_label();
+    var years, years_data, years_x,
+      _this = this;
+    years_x = {
+      "gmail.com": 1.8 * this.width / 5,
+      "google.com": 2 * this.width / 5,
+      "ti.com": 2.5 * this.width / 5,
+      "android.com": 3 * this.width / 5,
+      "codeaurora.org": 2.2 * this.width / 5,
+      "others": 3 * this.width / 5,
+    };
+    years_y = {
+      "gmail.com":  4 * this.height / 5,
+      "google.com": 1.7 * this.height / 5,
+      "ti.com": 1.1 * this.height / 5,
+      "android.com": 1.8 * this.height / 5,
+      "codeaurora.org": 2.2*this.height / 5,
+      "others": 2.5 * this.height / 5,
+    };
+    years_data = d3.keys(years_x);
+    years = this.vis.selectAll(".group_label").data(years_data);
+    return years.enter().append("text").attr("class", "group_label lead").attr("x", function(d) {
+      return years_x[d];
+    }).attr("y", function(d) {
+      return years_y[d];
+    }).attr("text-anchor", "middle").text(function(d) {
+      return d;
+    });
+  };
+
+  BubbleChart.prototype.display_year = function() {
+    this.hide_label();
+    var years, years_data, years_x,
+      _this = this;
+    years_x = {
+      "2008": this.width/8,
+      "2009": 4 * this.width / 8,
+      "2010": 4 * this.width / 8,
+      "2011": 3 * this.width / 8,
+      "2012": 0.3 * this.width / 3,
+    };
+    years_y = {
+      "2008": 40,
+      "2009": 40,
+      "2010": 1.2 * this.height / 2,
+      "2011": 1.3 * this.height / 2,
+      "2012": 1.3 * this.height / 2,
+    };
+    years_data = d3.keys(years_x);
+    years = this.vis.selectAll(".group_label").data(years_data);
+    return years.enter().append("text").attr("class", "group_label lead").attr("x", function(d) {
+      return years_x[d];
+    }).attr("y", function(d) {
+      return years_y[d];
+    }).attr("text-anchor", "middle").text(function(d) {
+      return d;
+    });
+  };
+
+  BubbleChart.prototype.hide_label = function() {
+    var years;
+    return years = this.vis.selectAll(".group_label").remove();
+  };
+
+  BubbleChart.prototype.show_details = function(data, i, element) {
+    var content;
+    d3.select(element).attr("stroke", "black");
+    content = "<span class=\"name\">Name:</span><span class=\"value\"> " + data.name + "</span><br/>";
+    content += "<span class=\"name\">Total Activitiy:</span><span class=\"value\"> " + (addCommas(data.own)) +"(O) +"+ (addCommas(data.verify)) +"(V) + "+ (addCommas(data.codereview)) +"(R) +"+(addCommas(data.comment))+"(C) = "+(addCommas(data.value)) + "</span><br/>";
+    content += "<span class=\"name\">First Year Contribute:</span><span class=\"value\"> " + data.year + "</span><br/>";
+    content += "<span class=\"name\">First Activity Contribute:</span><span class=\"value\"> " + data.activity + "</span><br/>";
+    content += "<span class=\"name\">Most Activity Contribute:</span><span class=\"value\"> " + data.most_activity + "</span><br/>";
+    content += "<span class=\"name\">Email Domain:</span><span class=\"value\"> " + data.email_domain + "</span><br/>";
+    content += "<span class=\"name\">Activity Group:</span><span class=\"value\"> " + data.group + "</span><br/>";
+    return this.tooltip.showTooltip(content, d3.event);
+  };
+
+  BubbleChart.prototype.hide_details = function(data, i, element) {
+    var _this = this;
+    d3.select(element).attr("stroke", function(d) {
+      return d3.rgb(_this.fill_color(d.group)).darker();
+    });
+    return this.tooltip.hideTooltip();
+  };
+
+  BubbleChart.prototype.export_node = function() {
+    var _this = this;
+    var exported = [];
+    _this.nodes.forEach(function(d){
+      exported.push({id: d.id,
+          name: d.name,
+          email:d.email,
+          email_domain: d.email_domain,
+          group: d.group,
+          start_year: d.year,
+          start_activity: d.activity,
+          own: d.own,
+          codereview: d.codereview,
+          verify: d.verify,
+          comment: d.comment,
+          most_activity: most_activity,
+      });
+    });
+    document.location.href="data:application/octet-stream;charset=utf-8;base64,"+Base64.encode(d3.csv.format(exported));
+  };
+
+  return BubbleChart;
+
+})();
+
+root = typeof exports !== "undefined" && exports !== null ? exports : this;
+
+function render(min_activity) {
+  $('#svg_vis').remove()
+  $('#download').show();
+  $('#view_selection a').removeClass("active");
+  $('#all').addClass("active");
+  var chart, render_vis,
+    _this = this;
+  chart = null;
+  render_vis = function(csv) {
+    chart = new BubbleChart(csv,min_activity);
+    $('#cnt_show').text(chart.nodes.length);
+    $('#cnt_all').text(chart.data.length);
+    chart.start();
+
+    $('#download').fadeOut("fast");
+    $('#small_stat').fadeIn("fast");
+    return root.display_all();
+  };
+  root.display_all = function() {
+    return chart.display_group_all();
+  };
+  root.display_activity = function(type) {
+    return chart.display_by_activity(type);
+  };
+  root.display_year = function() {
+    return chart.display_by_year();
+  };
+  root.display_email = function() {
+    return chart.display_by_email();
+  };
+  root.toggle_view = function(view_type) {
+    if (view_type === 'activity') {
+      return root.display_activity("first");
+    } else if(view_type === 'year'){
+      return root.display_year();
+    }else if(view_type === 'most_activity'){
+      return root.display_activity("most");
+    }else if(view_type === 'email'){
+      return root.display_email();
+    }
+    else {
+      return root.display_all();
+    }
+  };
+  root.export_node = function() {
+    chart.export_node();
+  };
+  return d3.csv("/dat/user_activity/android", render_vis);
+}
+
+render(5);
+
+</script>

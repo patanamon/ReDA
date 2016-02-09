@@ -1,0 +1,1225 @@
+id,name,email,email_domain,group,start_year,start_activity,own,codereview,verify,comment,most_activity
+1000660,Jean-Baptiste Queru,jbq@google.com,google.com,OVRC,2008,Create Review,556,2052,1916,5757,Create Review
+1001414,Xavier Ducrohet,xav@android.com,android.com,OVRC,2008,Create Review,472,1411,988,2562,Create Review
+1000411,David Turner,digit@android.com,android.com,OVRC,2009,Verify,404,1271,1130,2798,Create Review
+1001100,Raphaël Moll,ralf@android.com,android.com,OVRC,2008,Create Review,386,956,682,1802,Create Review
+1002751,Colin Cross,ccross@android.com,android.com,OVRC,2009,Create Review,494,751,634,2128,Create Review
+1004689,Tor Norbye,tnorbye@google.com,google.com,OVRC,2010,Create Review,312,580,538,1537,Create Review
+1003566,Brian Muramatsu,btmura@android.com,android.com,OVRC,2010,Create Review,356,550,519,1329,Create Review
+1000413,Dima Zavin,dima@android.com,android.com,OVRC,2009,Verify,111,623,441,1129,Create Review
+1001118,Rebecca Schultz Zavin,rebecca@android.com,android.com,OVRC,2009,Create Review,158,644,323,853,Create Review
+1001051,Garret Pick,pickgr@pv.com,pv.com,OVRC,2008,Create Review,70,493,481,1019,Create Review
+1000830,Mike Lockwood,lockwood%android.com@gtempaccount.com,gtempaccount.com,OVRC,2008,Create Review,222,434,333,757,Create Review
+1000866,Iliyan B. Malchev,malchev@google.com,google.com,OVRC,2008,Create Review,305,366,301,1050,Create Review
+1001174,San Mehat,san@google.com,google.com,OVRC,2008,Create Review,210,334,274,605,Create Review
+1000414,Dmitry Shmidt,dimitrysh%android.com@gtempaccount.com,gtempaccount.com,OVRC,2009,Create Review,226,273,256,653,Create Review
+1002951,Johan Redestig,johan.redestig@sonyericsson.com,sonyericsson.com,OVRC,2010,Create Review,497,253,1,809,Create Review
+1001891,Erik Gilling,konkers@android.com,android.com,OVRC,2009,Verify,177,332,223,654,Create Review
+1001146,Romain Guy,romainguy@android.com,android.com,OVRC,2009,Create Review,1,425,301,645,Create Review
+1004277,Todd Poynor,toddpoynor@google.com,google.com,OVRC,2010,Create Review,444,109,84,699,Create Review
+1000205,Arve Hjønnevåg,arve@android.com,android.com,OVRC,2008,Create Review,122,311,194,530,Create Review
+1002621,Brett Chabot,brettchabot@android.com,android.com,OVRC,2009,Verify,57,318,173,360,Create Review
+1003763,Vladimir Chtchetkine,vchtchetkine@google.com,google.com,OVRC,2010,Create Review,73,298,159,331,Create Review
+1003360,Bruce Beare,bruce.j.beare@intel.com,intel.com,OVRC,2010,Create Review,297,214,11,720,Create Review
+1001534,Mike Chan,mike@android.com,android.com,OVRC,2009,Create Review,116,206,150,430,Create Review
+1000559,Dianne Hackborn,hackbod@android.com,android.com,VRC,2008,Comment,0,271,192,352,Create Review
+1000962,Dan Morrill,morrildl@google.com,google.com,OVRC,2010,CodeReview,11,278,140,225,Create Review
+1001286,Brian Swetland,swetland@google.com,google.com,OVRC,2008,Create Review,17,289,102,205,Create Review
+1002519,PacketVideo CM,engbuild@pv.com,pv.com,ORC,2009,Create Review,403,1,0,1,Create Review
+1000269,Brad Fitzpatrick,bradfitz@android.com,android.com,OVRC,2009,Create Review,16,201,169,426,Create Review
+1001002,Nick Pelly,npelly@google.com,google.com,OVRC,2008,Create Review,71,153,124,287,Create Review
+1002657,Gary King,gking@nvidia.com,nvidia.com,ORC,2010,Create Review,204,140,0,304,Create Review
+1003977,Benoit Goby,benoit@android.com,android.com,OVRC,2010,Create Review,113,120,110,355,Create Review
+1006257,Conley Owens,cco3@android.com,android.com,OVRC,2011,Verify,2,168,133,230,Create Review
+1003981,Ying Wang,wangying@android.com,android.com,OVRC,2009,Create Review,22,149,125,232,Create Review
+1001401,Wink Saville,wink@google.com,google.com,OVRC,2010,Verify,4,158,78,300,Create Review
+1000718,John Huang,jsh@android.com,android.com,VRC,2008,Comment,0,144,95,173,Create Review
+1002975,Kenny Root,kroot@android.com,android.com,OVRC,2010,Verify,8,129,97,246,Create Review
+1000635,Jaikumar Ganesh,jaikumarg@android.com,android.com,OVRC,2009,Create Review,14,125,95,281,Create Review
+1001302,Alexey Tarasov,tarasov@dodologics.com,dodologics.com,ORC,2008,Create Review,170,56,0,121,Create Review
+1001902,Paul Eastham,eastham@google.com,google.com,OVRC,2009,Create Review,14,137,57,95,Create Review
+1003224,Elliott Hughes,enh@google.com,google.com,OVRC,2010,CodeReview,3,113,91,188,Create Review
+1000387,Dave Sparks,dsparks.android@gmail.com,gmail.com,OVRC,2008,Create Review,2,139,51,87,Create Review
+1000701,Joe Onorato,joeo@android.com,android.com,OVRC,2008,Create Review,5,140,45,110,Create Review
+1001056,Mathias Agopian,pixelflinger@gmail.com,gmail.com,VRC,2009,Verify,0,117,68,128,Create Review
+1000483,fadden fadden,fadden@android.com,android.com,OVRC,2009,Verify,3,98,70,163,Create Review
+1003205,Jing Yu,jingyu@google.com,google.com,OVRC,2010,CodeReview,37,71,50,109,Create Review
+1000678,Jeff Hamilton,jham@google.com,google.com,OVRC,2008,Create Review,10,91,53,127,Create Review
+1005655,Guy Zadickario,guy@graphtech.co.il,graphtech.co.il,ORC,2011,Create Review,124,27,0,240,Create Review
+1003856,Christian Mehlmauer,FireFart@gmail.com,gmail.com,ORC,2010,Create Review,103,45,0,169,Create Review
+1000319,Christian Bejram,christian.bejram@stericsson.com,stericsson.com,ORC,2010,Create Review,88,45,0,108,Create Review
+1003957,Jeff Brown,jeffbrown@android.com,android.com,OVRC,2010,CodeReview,17,64,50,124,Create Review
+1000369,Dan Bornstein,danfuzz@android.com,android.com,VRC,2008,Comment,0,77,50,101,Create Review
+1001861,vikram pandita,vikram.pandita@ti.com,ti.com,ORC,2009,CodeReview,31,87,0,81,Create Review
+1002068,Martin Storsjö,martin@martin.st,martin.st,OVRC,2009,Create Review,78,29,9,118,Create Review
+1003498,Doug Kwan,dougkwan@google.com,google.com,OVRC,2010,CodeReview,12,79,24,70,Create Review
+1003413,Naveen Kalla,nkalla@codeaurora.org,codeaurora.org,OVRC,2010,Create Review,43,69,3,161,Create Review
+1002609,Robert Greenwalt,rgreenwalt@google.com,google.com,OVRC,2009,CodeReview,2,68,41,145,Create Review
+1001872,Chih-Wei Huang,None,None,OVRC,2009,Create Review,76,29,4,80,Create Review
+1000980,Bill Napier,napier@google.com,google.com,OVRC,2008,Create Review,30,43,33,110,Create Review
+1002471,Jim Huang,jserv@0xlab.org,0xlab.org,OVRC,2010,Create Review,67,36,1,72,Create Review
+1000322,Christopher Tate,ctate@android.com,android.com,OVRC,2008,Create Review,1,66,33,65,Create Review
+1001446,Ravi Kishore Yenduri,yenduri@pv.com,pv.com,OVRC,2008,Create Review,28,47,25,91,Create Review
+1004417,Greg Goldman,ggoldman@broadcom.com,broadcom.com,RC,2010,CodeReview,0,97,0,93,Create Review
+1003966,Nick Kralevich,nnk@google.com,google.com,OVRC,2010,CodeReview,12,50,27,102,Create Review
+1000582,Howard M. Harte,hharte@broadcom.com,broadcom.com,ORC,2010,CodeReview,16,71,0,34,Create Review
+1002670,Thorsten Glaser,None,None,ORC,2009,Create Review,54,32,0,177,Create Review
+1003544,Jake Hamby,jhamby@google.com,google.com,OVRC,2010,CodeReview,4,54,27,67,Create Review
+1004816,Dan Murphy,dmurphy@ti.com,ti.com,OVRC,2010,CodeReview,52,28,3,148,Create Review
+1000787,Oleksandr Kucherenko,kucherenko.alex@gmail.com,gmail.com,ORC,2009,Create Review,81,1,0,52,Create Review
+1001525,Marco Nelissen,marcone@google.com,google.com,OVRC,2009,CodeReview,1,46,34,67,Create Review
+1000748,Kenny Root,kenny@the-b.org,the-b.org,ORC,2009,Create Review,43,38,0,103,Create Review
+1001211,Greg Sherwood,sherwood@pv.com,pv.com,OVRC,2008,Create Review,8,35,31,70,Create Review
+1005670,Jacky Romano,jr@graphtech.co.il,graphtech.co.il,ORC,2011,Create Review,39,34,0,33,Create Review
+1001787,kernel tag replication,None,None,R,2009,CodeReview,0,71,0,0,Create Review
+1002017,Madan Ankapura,mankapur@sta.samsung.com,sta.samsung.com,ORC,2010,Create Review,31,38,0,51,Create Review
+1006433,Deckard Autoverifier,deckard@android.com,android.com,VC,2011,Verify,0,0,69,95,Create Review
+1005665,Mark D Horn,mark.d.horn@intel.com,intel.com,ORC,2011,Create Review,25,42,0,96,Create Review
+1003344,Irfan Sheriff,isheriff@android.com,android.com,VRC,2010,CodeReview,0,42,23,42,Create Review
+1001134,rich cannings,richc@google.com,google.com,OVRC,2008,Create Review,10,41,14,27,Create Review
+1000392,Dave Bort,dbort@android.com,android.com,OVRC,2008,Create Review,4,39,20,62,Create Review
+1005471,Jozef Babjak,jozef.babjak@gmail.com,gmail.com,ORC,2011,Create Review,46,16,0,39,Create Review
+1005324,Keiji Ariyama,keiji_ariyama@c-lis.co.jp,c-lis.co.jp,ORC,2011,Create Review,39,23,0,102,Create Review
+1001597,Anu Sundararajan,sanuradha@ti.com,ti.com,ORC,2009,CodeReview,47,15,0,44,Create Review
+1001986,Amith Yamasani,yamasani@google.com,google.com,VRC,2009,CodeReview,0,41,21,36,Create Review
+1005562,Jun Nakajima,jun.nakajima@intel.com,intel.com,ORC,2011,Create Review,39,22,0,45,Create Review
+1001981,Dominic Curran,dcurran@ti.com,ti.com,ORC,2009,Create Review,60,1,0,12,Create Review
+1005480,jp abgrall,jpa@google.com,google.com,OVRC,2011,Create Review,20,22,18,93,Create Review
+1002093,Sinker,thinker@branda.to,branda.to,ORC,2009,Create Review,48,11,0,32,Create Review
+1004285,Ken Sumrall,ksumrall@android.com,android.com,OVRC,2010,Create Review,16,27,16,38,Create Review
+1001923,Chia-chi Yeh,chiachi@android.com,android.com,OVRC,2009,Create Review,20,31,7,46,Create Review
+1004513,Steve Block,steveblock@google.com,google.com,OVRC,2011,CodeReview,24,18,16,46,Create Review
+1004121,Konstantin Lopyrev,klopyrev@google.com,google.com,OVRC,2010,Create Review,21,18,18,117,Create Review
+1003263,Adam Powell,adamp@android.com,android.com,VRC,2010,Verify,0,37,20,30,Create Review
+1002915,Masanori Ogino,ogino.masanori@sharp.co.jp,sharp.co.jp,OVRC,2010,Create Review,36,19,1,80,Create Review
+1004245,Varun Wadekar,vwadekar@nvidia.com,nvidia.com,ORC,2010,Create Review,40,16,0,260,Create Review
+1002408,Steve Kondik,shade@chemlab.org,chemlab.org,ORC,2009,Create Review,21,34,0,58,Create Review
+1004254,None,vairav@codeaurora.org,codeaurora.org,ORC,2010,Create Review,36,18,0,52,Create Review
+1002348,Jesse Wilson,jessewilson@google.com,google.com,VRC,2010,CodeReview,0,31,22,48,Create Review
+1004208,Ot ten Thije,ottenthije@google.com,google.com,OVRC,2010,Create Review,16,20,17,103,Create Review
+1004300,Srinivas Naik,snb@codeaurora.org,codeaurora.org,OVRC,2010,Create Review,22,23,4,117,Create Review
+1003310,Garmin,android@garmin.com,garmin.com,ORC,2010,Create Review,42,6,0,47,Create Review
+1004424,henrik baard,henrik.baard@sonyericsson.com,sonyericsson.com,ORC,2010,CodeReview,32,16,0,44,Create Review
+1004565,Simon Wilson,simonwilson@google.com,google.com,OVRC,2010,CodeReview,11,24,13,48,Create Review
+1003237,André Goddard Rosa,andre.goddard@gmail.com,gmail.com,ORC,2010,Create Review,33,14,0,34,Create Review
+1002598,Michael Chan,mchan@android.com,android.com,OVRC,2009,Verify,1,24,21,45,Create Review
+1005493,None,m-miyahara@ct.jp.nec.com,ct.jp.nec.com,ORC,2011,Create Review,30,16,0,31,Create Review
+1000358,David Brown,dab@android.com,android.com,VRC,2009,Verify,0,27,18,36,Create Review
+1004957,Mike Lockwood,lockwood@google.com,google.com,VR,2010,CodeReview,0,42,2,0,Create Review
+1000740,Keith Deacon,kdeacon@ti.com,ti.com,OVRC,2009,Create Review,8,29,7,22,Create Review
+1003004,Chih-Wei Huang,None,None,RC,2009,CodeReview,0,44,0,143,Create Review
+1006131,Amit Feller,amit@graphtech.co.il,graphtech.co.il,ORC,2011,Create Review,16,28,0,52,Create Review
+1003729,Android LntInfotech,androidlntinfotech@gmail.com,gmail.com,ORC,2010,Create Review,41,2,0,19,Create Review
+1006490,Franky Lin,frankyl@broadcom.com,broadcom.com,RC,2011,CodeReview,0,42,0,8,Create Review
+1006744,Piotr Tomaszewski,piotr.tomaszewski@stericsson.com,stericsson.com,R,2011,CodeReview,0,42,0,0,Create Review
+1001252,Andy Stadler,stadler@android.com,android.com,OVRC,2008,Create Review,1,26,14,57,Create Review
+1002612,Chih-Hung Chou,robert_ch_chou@acer.com.tw,acer.com.tw,ORC,2009,Create Review,28,13,0,34,Create Review
+1002268,Doug Zongker,dougz@android.com,android.com,VRC,2009,Verify,0,23,17,35,Create Review
+1004857,Tim Baverstock,weasel@google.com,google.com,OVRC,2010,Create Review,15,16,9,67,Create Review
+1001047,Patrick Scott,phanna@android.com,android.com,VRC,2009,Verify,0,21,18,40,Create Review
+1003744,Kenneth Andersson,kenneth.andersson@sonyericsson.com,sonyericsson.com,ORC,2010,Create Review,25,14,0,50,Create Review
+1001893,Tony SIM,chinyeow.sim.xt@renesas.com,renesas.com,ORC,2009,Create Review,24,14,0,49,Create Review
+1003723,Brian Carlstrom,bdc@google.com,google.com,OVRC,2010,Verify,2,17,19,29,Create Review
+1000773,Grace Kloba,klobag@google.com,google.com,VRC,2009,Verify,0,22,16,38,Create Review
+1004655,Marcus Comstedt,marcus@mc.pp.se,mc.pp.se,ORC,2010,Create Review,27,10,0,49,Create Review
+1002058,Suman Anna,s-anna@ti.com,ti.com,ORC,2011,Create Review,10,27,0,22,Create Review
+1001519,Android Build,None,None,R,2009,CodeReview,0,37,0,0,Create Review
+1002214,Pavan Savoy,pavan_savoy@ti.com,ti.com,OVRC,2009,Create Review,12,9,16,18,Create Review
+1001191,Sean McNeil,sean.mcneil@windriver.com,windriver.com,ORC,2008,Create Review,29,8,0,19,Create Review
+1002413,Wu-Cheng Li,wuchengli@google.com,google.com,VRC,2010,CodeReview,0,22,14,33,Create Review
+1001022,Team Android CDMA,oss.android_cdma@teleca.com,teleca.com,OVRC,2008,Create Review,18,9,8,13,Create Review
+1002820,Haris Peco,snpe60@gmail.com,gmail.com,ORC,2010,Create Review,25,10,0,208,Create Review
+1003902,None,ayakaven@quicinc.com,quicinc.com,ORC,2010,Create Review,18,17,0,79,Create Review
+1003182,Jack Palevich,jackpal@google.com,google.com,OVRC,2010,CodeReview,5,18,11,32,Create Review
+1002063,Subramani Venkatesh,subramani.venkatesh@windriver.com,windriver.com,ORC,2009,Create Review,24,9,0,15,Create Review
+1005118,None,lge-aosp@lge.com,lge.com,ORC,2011,Create Review,29,4,0,4,Create Review
+1003206,Wei Guozhi,carrot@google.com,google.com,R,2010,CodeReview,0,32,0,0,Create Review
+1002171,Leed Aguilar,leed.aguilar@ti.com,ti.com,ORC,2009,Create Review,17,15,0,15,Create Review
+1003245,David Marques,dpsmarques@gmail.com,gmail.com,ORC,2010,Create Review,15,17,0,78,Create Review
+1004572,Eric Fischer,enf@google.com,google.com,VRC,2010,CodeReview,0,20,11,15,Create Review
+1006477,Yochai Shefi Simchon,joch@graphtech.co.il,graphtech.co.il,ORC,2011,Create Review,7,24,0,8,Create Review
+1004305,Gloria Wang,gwang@google.com,google.com,OVRC,2010,CodeReview,4,15,12,62,Create Review
+1004669,Pierre Zurek,pierrezurek@gmail.com,gmail.com,ORC,2010,Create Review,19,12,0,46,Create Review
+1003473,Dmitri Plotnikov,dplotnikov@google.com,google.com,VRC,2010,CodeReview,0,20,11,40,Create Review
+1002412,Wei-Ta Chen,weita@google.com,google.com,VRC,2010,Verify,0,23,8,10,Create Review
+1000687,John Wang,johnw@android.com,android.com,VRC,2010,Verify,0,26,4,14,Create Review
+1003618,Tom Taylor,tomtaylor@google.com,google.com,VRC,2010,CodeReview,0,22,8,21,Create Review
+1001843,Christopher Lais,chris+android@zenthought.org,zenthought.org,ORC,2009,Create Review,17,12,0,29,Create Review
+1006444,Josiah Gaskin,josiahgaskin@google.com,google.com,OVRC,2011,Create Review,14,9,6,110,Create Review
+1004017,Jim Miller,jaggies@android.com,android.com,VRC,2010,Verify,0,17,12,25,Create Review
+1003259,Eric Laurent,elaurent@google.com,google.com,ORC,2010,Create Review,5,24,0,29,Create Review
+1004480,Omari Stephens,xsdg@android.com,android.com,OVRC,2010,Create Review,5,13,11,28,Create Review
+1001898,Eugene Fotin,udgerr@gmail.com,gmail.com,RC,2009,CodeReview,0,29,0,30,Create Review
+1002032,Fernando Lugo,fernando.lugo@ti.com,ti.com,ORC,2009,CodeReview,13,15,0,75,Create Review
+1004540,Stephen Li,stephenl@codeaurora.org,codeaurora.org,ORC,2011,Create Review,16,12,0,12,Create Review
+1000676,Jey,jey.michael@gmail.com,gmail.com,ORC,2008,Create Review,16,12,0,24,Create Review
+1001895,Oksana Yaremkevych,masyanya.bug@gmail.com,gmail.com,RC,2009,CodeReview,0,28,0,29,Create Review
+1001868,Pavlo Kasperskyi,pkasperskyi@gmail.com,gmail.com,RC,2009,CodeReview,0,28,0,29,Create Review
+1002597,Patrick Brady,pbrady@google.com,google.com,RC,2010,CodeReview,0,27,0,22,Create Review
+1001906,Anand Gadiyar,gadiyar@ti.com,ti.com,ORC,2009,Create Review,16,11,0,10,Create Review
+1003213,Mike Playle,mike.playle@realvnc.com,realvnc.com,ORC,2010,Create Review,21,6,0,31,Create Review
+1006166,Jeff Sharkey,jsharkey@android.com,android.com,OVRC,2009,CodeReview,4,14,9,26,Create Review
+1005536,SANG JUN PARK,sj2202.park@samsung.com,samsung.com,ORC,2011,Create Review,22,5,0,43,Create Review
+1001122,Mike Reed,reed@android.com,android.com,OVRC,2008,Create Review,1,20,6,18,Create Review
+1003296,Raghu Gandham,raghu@mips.com,mips.com,ORC,2011,CodeReview,20,7,0,12,Create Review
+1001996,Pallabi Parveen,None,None,R,2009,CodeReview,0,27,0,0,Create Review
+1004644,Matthias Thomae,matthias.thomae@teleca.com,teleca.com,ORC,2010,Create Review,23,4,0,92,Create Review
+1005127,Shruthi N.K,shruthink@codeaurora.org,codeaurora.org,OVRC,2011,Create Review,22,3,1,24,Create Review
+1000492,Ficus Kirkpatrick,ficus@android.com,android.com,VRC,2009,Verify,0,14,11,18,Create Review
+1004232,Naomi Luis,nluis@codeaurora.org,codeaurora.org,ORC,2010,Create Review,14,11,0,14,Create Review
+1002372,Shachar Shemesh,lingnu@gmail.com,gmail.com,ORC,2009,Create Review,14,11,0,35,Create Review
+1001728,David Goldfarb,deg@degel.com,degel.com,ORC,2009,Create Review,17,8,0,7,Create Review
+1001707,Barry Hayes,bhayes@google.com,google.com,OVRC,2009,Create Review,14,10,1,49,Create Review
+1002473,Wei Huang,weih@google.com,google.com,RC,2009,CodeReview,0,24,0,5,Create Review
+1003769,Jay Cheng,jacheng@nvidia.com,nvidia.com,R,2010,CodeReview,0,24,0,0,Create Review
+1003084,Dries Harnie,botje.linux@gmail.com,gmail.com,ORC,2010,Create Review,15,9,0,28,Create Review
+1004120,John Joseph,jnjoseph@codeaurora.org,codeaurora.org,ORC,2010,Create Review,15,9,0,45,Create Review
+1001596,Chris Kelly,c-kelly@ti.com,ti.com,OVRC,2009,Create Review,13,10,1,11,Create Review
+1003771,Vasu Nori,vnori@google.com,google.com,VRC,2010,CodeReview,0,15,9,25,Create Review
+1004123,Mac Wang,Mac_Wang@acer.com.tw,acer.com.tw,ORC,2010,Create Review,5,19,0,22,Create Review
+1000706,Johnnie Birch,johnnie.l.birch.jr@intel.com,intel.com,ORC,2008,Create Review,13,10,0,50,Create Review
+1002630,Ian Kent,raven@themaw.net,themaw.net,ORC,2009,Create Review,21,2,0,15,Create Review
+1000558,Zhihong.GUO,zhihong.guo@orange-ftgroup.com,orange-ftgroup.com,ORC,2011,Create Review,16,7,0,21,Create Review
+1002416,Leon Scroggins III,scroggo@gmail.com,gmail.com,VRC,2010,Verify,0,12,10,21,Create Review
+1000234,Ben Cheng,bccheng@android.com,android.com,OVRC,2008,Create Review,4,10,8,22,Create Review
+1004215,Takeshi Kishimoto,kishimoto@google.com,google.com,VR,2010,CodeReview,0,19,3,0,Create Review
+1010111,Stephen Smalley,sds@tycho.nsa.gov,tycho.nsa.gov,OVRC,2012,Create Review,16,2,3,48,Create Review
+1003176,Carl Shapiro,cshapiro@android.com,android.com,RC,2010,CodeReview,0,21,0,3,Create Review
+1002451,Cary Clark,cccandroid@gmail.com,gmail.com,VRC,2010,Verify,0,12,9,12,Create Review
+1002930,Hristo Bojinov,hristo.bojinov@gmail.com,gmail.com,ORC,2009,Create Review,19,2,0,24,Create Review
+1004387,Hanumanthu Ganji,hanuganji@codeaurora.org,codeaurora.org,VR,2010,CodeReview,0,14,7,0,Create Review
+1002077,Alan Jones,skyphyr@gmail.com,gmail.com,ORC,2009,Create Review,16,4,0,10,Create Review
+1002107,Madhusudhan Chikkature Rajashekar,madhu.cr@ti.com,ti.com,ORC,2009,CodeReview,9,11,0,11,Create Review
+1005406,Lado Kumsiashvili,herrlado@gmail.com,gmail.com,ORC,2011,Create Review,11,9,0,46,Create Review
+1004230,Mohammad Shamsi,m.h.shams@gmail.com,gmail.com,ORC,2010,CodeReview,12,8,0,14,Create Review
+1001038,Pavan Savoy,pavan.savoy@gmail.com,gmail.com,ORC,2010,Create Review,10,9,0,16,Create Review
+1002620,Tom Taylor,tomastaylor@gmail.com,gmail.com,VRC,2010,CodeReview,0,16,3,29,Create Review
+1001726,Ohad Ben-Cohen,ohad@wizery.com,wizery.com,ORC,2009,Create Review,13,6,0,29,Create Review
+1006279,Lajos Molnar,molnar@ti.com,ti.com,ORC,2011,CodeReview,5,14,0,2,Create Review
+1005066,Anshul Jain,anshulj@codeaurora.org,codeaurora.org,ORC,2010,Create Review,12,6,0,56,Create Review
+1003973,Olof Johansson,olofj@google.com,google.com,ORC,2010,CodeReview,9,9,0,10,Create Review
+1004019,Daniel Lehmann,lehmannd@google.com,google.com,VRC,2010,Verify,0,11,7,12,Create Review
+1002151,Romit Dasgupta,romit@ti.com,ti.com,ORC,2009,Create Review,8,10,0,8,Create Review
+1002020,Yusuf T. Mobile,yusuf.saib@T-Mobile.com,T-Mobile.com,ORC,2009,Create Review,14,4,0,1,Create Review
+1001064,Pascal Merle,pmerle@kph.uni-mainz.de,kph.uni-mainz.de,ORC,2009,Create Review,11,7,0,30,Create Review
+1001819,Han Chao,chao.han@windriver.com,windriver.com,ORC,2009,CodeReview,13,5,0,7,Create Review
+1004239,ethan.too,ethan.too@gmail.com,gmail.com,ORC,2010,Create Review,11,7,0,19,Create Review
+1006106,Liran Bachar,liran@graphtech.co.il,graphtech.co.il,ORC,2011,Create Review,2,16,0,2,Create Review
+1002316,Sergio Aguirre,sergio.a.aguirre@gmail.com,gmail.com,R,2009,CodeReview,0,18,0,0,Create Review
+1000133,Adrian Taylor,adrian@macrobug.com,macrobug.com,ORC,2009,Create Review,13,4,0,9,Create Review
+1002211,Johan de Koning,johan.c.de.koning@gmail.com,gmail.com,ORC,2009,Create Review,12,5,0,14,Create Review
+1010184,Daniel Fages,dfages@gmail.com,gmail.com,OVRC,2012,Create Review,4,7,6,18,Create Review
+1006404,yunhong jiang,yunhong.jiang@intel.com,intel.com,OVRC,2011,CodeReview,9,6,2,16,Create Review
+1000888,mark gross,mark97229@gmail.com,gmail.com,OVRC,2008,Create Review,1,15,1,17,Create Review
+1006795,Dave Burke,daveburke@google.com,google.com,VRC,2012,Verify,0,5,12,5,Create Review
+1004930,Deva Ramasubramanian,dramasub@codeaurora.org,codeaurora.org,ORC,2010,Create Review,10,7,0,6,Create Review
+1004381,Pradnya Chaphekar,pradnyac@codeaurora.org,codeaurora.org,ORC,2010,Create Review,6,11,0,5,Create Review
+1005532,None,pnath@sta.samsung.com,sta.samsung.com,ORC,2011,CodeReview,7,10,0,5,Create Review
+1002074,Javier Tapia,tapia@pv.com,pv.com,RC,2009,CodeReview,0,17,0,23,Create Review
+1005405,None,mathan@codeaurora.org,codeaurora.org,OVRC,2011,Create Review,9,4,3,6,Create Review
+1003637,Kan-Ru Chen,kanru@0xlab.org,0xlab.org,ORC,2010,Create Review,8,8,0,16,Create Review
+1003956,Jaime A Lopez-Sollano,jaimel@codeaurora.org,codeaurora.org,ORC,2010,Create Review,14,2,0,20,Create Review
+1003209,Emilian Peev,epeev@ti.com,ti.com,ORC,2011,Create Review,6,10,0,22,Create Review
+1005253,Jon Mayo,jmayo@nvidia.com,nvidia.com,ORC,2011,Create Review,10,6,0,74,Create Review
+1002684,Bryan Huntsman,bryanh@codeaurora.org,codeaurora.org,ORC,2010,Create Review,5,11,0,10,Create Review
+1004291,Aimi Takeshi,aimitakeshi@gmail.com,gmail.com,ORC,2010,Create Review,11,5,0,70,Create Review
+1002811,Robert Hockauf,robert.hockauf@gi-de.com,gi-de.com,ORC,2011,Create Review,12,4,0,33,Create Review
+1003302,Daisuké Miyakawa,dmiyakawa@google.com,google.com,VRC,2010,CodeReview,0,10,6,8,Create Review
+1005614,James Dong,jdong.android@gmail.com,gmail.com,VRC,2011,CodeReview,0,11,4,12,Create Review
+1001184,Jay Freeman (saurik),legacy@saurik.com,saurik.com,ORC,2008,Create Review,12,3,0,8,Create Review
+1004677,Uma Maheswari Ramalingam,umam@codeaurora.org,codeaurora.org,ORC,2010,Create Review,12,3,0,32,Create Review
+1002359,Eric Olsen,eolsen@android.com,android.com,OVRC,2009,Create Review,4,8,3,10,Create Review
+1002350,NoraBora,noranbora@gmail.com,gmail.com,ORC,2009,Create Review,10,5,0,18,Create Review
+1005135,Jiju Kinattingal,jijuk@codeaurora.org,codeaurora.org,OVRC,2010,Create Review,7,4,4,15,Create Review
+1003094,Eric Fischer,enf1234567890@gmail.com,gmail.com,VRC,2010,CodeReview,0,12,3,22,Create Review
+1005105,luse cheng,lusecheng@gmail.com,gmail.com,ORC,2010,Create Review,6,9,0,17,Create Review
+1003611,Bjorn Bringert,bringert@android.com,android.com,OVRC,2010,Create Review,3,8,4,19,Create Review
+1003707,Takuo Kitame,kitame@gmail.com,gmail.com,ORC,2010,Create Review,9,6,0,18,Create Review
+1002370,Xinyu Chen,xinyu.chen@freescale.com,freescale.com,ORC,2009,Create Review,12,3,0,8,Create Review
+1003425,Fred Quintana,fredq@google.com,google.com,VRC,2010,CodeReview,0,10,4,7,Create Review
+1001240,Shawn Pearce,sop@google.com,google.com,ORC,2008,Create Review,6,8,0,23,Create Review
+1001934,Praneeth Bajjuri,praneeth@ti.com,ti.com,ORC,2009,Create Review,10,4,0,17,Create Review
+1003832,Mike Rieker,mrieker@nii.net,nii.net,ORC,2010,Create Review,6,8,0,19,Create Review
+1006525,Siddartha Pothapragada,spotha@codeaurora.org,codeaurora.org,ORC,2011,Create Review,9,5,0,5,Create Review
+1001589,Nishanth Menon,None,None,ORC,2009,CodeReview,4,10,0,11,Create Review
+1001685,KennyGong,gongwuchun@gmail.com,gmail.com,ORC,2009,Create Review,11,3,0,10,Create Review
+1005317,David Krause,david.krause@motorola.com,motorola.com,ORC,2011,Create Review,7,7,0,14,Create Review
+1000752,Kevin Wang,kevin.a.wang@intel.com,intel.com,ORC,2009,Create Review,13,1,0,6,Create Review
+1000717,Jason Parks,jparksbrokeit@gmail.com,gmail.com,VRC,2009,Verify,0,11,3,10,Create Review
+1005146,John Michelau,john.michelau@motorola.com,motorola.com,ORC,2010,CodeReview,6,8,0,17,Create Review
+1010147,Ed Boraas,ed@boraas.ca,boraas.ca,OVRC,2012,Create Review,6,5,2,11,Create Review
+1001578,Bill Buzbee,buzbee@android.com,android.com,VRC,2009,CodeReview,0,12,1,13,Create Review
+1000253,Brad Larson,bklarson@gmail.com,gmail.com,ORC,2009,CodeReview,1,12,0,9,Create Review
+1004783,Mattias Falk,mattias.falk@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,13,0,10,Create Review
+1004151,James Peterson,james.d.peterson@gmail.com,gmail.com,ORC,2010,Create Review,11,2,0,12,Create Review
+1006168,Vernon Tang,vt@foilhead.net,foilhead.net,ORC,2011,Create Review,9,4,0,19,Create Review
+1006668,James Dong,jdong@google.com,google.com,VRC,2011,CodeReview,0,9,4,14,Create Review
+1006497,Michael Wright,michaelwr@google.com,google.com,ORC,2011,Create Review,8,5,0,21,Create Review
+1001984,Sergio Aguirre,saaguirre@ti.com,ti.com,R,2009,CodeReview,0,13,0,0,Create Review
+1006447,Miguel Vadillo,vadillo@ti.com,ti.com,ORC,2011,CodeReview,6,6,0,43,Create Review
+1002289,Axel Castaneda Gonzalez,x0055901@ti.com,ti.com,RC,2009,CodeReview,0,12,0,7,Create Review
+1006567,Jonghwan Choi,jhbird.choi@samsung.com,samsung.com,ORC,2011,Create Review,7,5,0,5,Create Review
+1000512,Fredrik Markström,fredrik.markstrom@gmail.com,gmail.com,ORC,2008,Create Review,8,4,0,19,Create Review
+1002411,Chih-Chung Chang,chihchung@google.com,google.com,ORC,2010,Create Review,1,11,0,8,Create Review
+1003732,Bitstream Inc,bitsandroid@gmail.com,gmail.com,ORC,2010,Create Review,8,4,0,7,Create Review
+1003557,Billy Leverington,billy.leverington@synchronica.com,synchronica.com,ORC,2010,Create Review,9,3,0,24,Create Review
+1003612,Melanie Clements,melanielc@google.com,google.com,ORC,2010,Create Review,8,4,0,22,Create Review
+1006707,Vikas Arora,vikasa@google.com,google.com,ORC,2011,Create Review,7,5,0,14,Create Review
+1005205,H.J. Lu,hjl.tools@gmail.com,gmail.com,VRC,2011,CodeReview,0,11,1,35,Create Review
+1002185,Dave Butcher,david.butcher@arm.com,arm.com,ORC,2009,Create Review,9,3,0,12,Create Review
+1005148,Michael I Gold,gold@nvidia.com,nvidia.com,ORC,2011,Create Review,4,8,0,14,Create Review
+1000835,Lorenzo Colitti,lorenzo@google.com,google.com,ORC,2008,Create Review,4,8,0,38,Create Review
+1005156,Adam Zajac,azajac@huawei.com,huawei.com,ORC,2011,Create Review,7,5,0,15,Create Review
+1003984,Prajakta Gudadhe,pgudadhe@nvidia.com,nvidia.com,R,2010,CodeReview,0,12,0,0,Create Review
+1004179,Ben Clark,benbread@gmail.com,gmail.com,ORC,2010,Create Review,11,1,0,12,Create Review
+1002658,Chad Fawcett,chad@useless.net,useless.net,ORC,2009,Create Review,6,6,0,23,Create Review
+1004700,Eunice Yu,yonhee.yu@lge.com,lge.com,ORC,2010,Create Review,8,4,0,10,Create Review
+1003673,Owen Lin,owenlin@google.com,google.com,VRC,2010,CodeReview,0,9,3,11,Create Review
+1002131,Vishwanath Sripathy,vishwanath.bs@ti.com,ti.com,ORC,2009,CodeReview,3,9,0,7,Create Review
+1000653,Josh Guilfoyle,jasta00@gmail.com,gmail.com,ORC,2008,Create Review,8,4,0,15,Create Review
+1005541,sam_chiu,sam_chiu@htc.com,htc.com,ORC,2011,Create Review,10,1,0,1,Create Review
+1003478,Daniel Walker,dwalker@codeaurora.org,codeaurora.org,ORC,2010,Create Review,8,3,0,7,Create Review
+1004371,Naseer Ahmed,naseer@codeaurora.org,codeaurora.org,ORC,2010,Create Review,6,5,0,7,Create Review
+1004029,Herb Jellinek,herb.jellinek@gmail.com,gmail.com,ORC,2010,Create Review,9,2,0,19,Create Review
+1001531,Robert Love,rlove@google.com,google.com,RC,2009,CodeReview,0,11,0,9,Create Review
+1004192,Guang Zhu,guangzhu@android.com,android.com,ORC,2010,Create Review,3,8,0,8,Create Review
+1004035,Kausik Sinnaswamy,kausik@broadcom.com,broadcom.com,ORC,2010,Create Review,7,4,0,44,Create Review
+1001698,Cyril Mottier,cyrilmottier@gmail.com,gmail.com,ORC,2009,Create Review,7,4,0,8,Create Review
+1002737,Charles Manning,cdhmanning@gmail.com,gmail.com,ORC,2009,Create Review,7,4,0,14,Create Review
+1005976,Norio Nasu,nasu.norio@sharp.co.jp,sharp.co.jp,ORC,2011,Create Review,6,5,0,8,Create Review
+1004415,Mayuresh Kulkarni,mkulkarni@nvidia.com,nvidia.com,ORC,2010,Create Review,6,5,0,8,Create Review
+1006581,Lin Ma,linm@broadcom.com,broadcom.com,RC,2011,CodeReview,0,11,0,7,Create Review
+1004923,Daniel Trebbien,dtrebbien@gmail.com,gmail.com,ORC,2010,Create Review,6,5,0,1,Create Review
+1000237,Ben Leslie,benno@benno.id.au,benno.id.au,ORC,2008,Create Review,7,4,0,15,Create Review
+1002619,Anthony Newnam,anthony@bnovc.com,bnovc.com,ORC,2010,CodeReview,2,9,0,20,Create Review
+1001394,Nate Karstens,webmaster@karstens.us,karstens.us,ORC,2008,Create Review,6,5,0,16,Create Review
+1000216,Axel Lin,axel.lin@gmail.com,gmail.com,ORC,2010,CodeReview,3,7,0,7,Create Review
+1005515,Jdkoreclipse Dev,jdkoreclipse@gmail.com,gmail.com,ORC,2011,Create Review,6,4,0,11,Create Review
+1005394,Skyler Kaufman,skyler@google.com,google.com,OVRC,2011,Create Review,1,6,3,8,Create Review
+1005081,Ashok Sidipotu,sashok@codeaurora.org,codeaurora.org,O,2010,Create Review,10,0,0,0,Create Review
+1003284,None,chris@mips.com,mips.com,OVR,2011,CodeReview,1,8,1,0,Create Review
+1004430,René Bolldorf,xsecute@googlemail.com,googlemail.com,ORC,2010,Create Review,7,3,0,4,Create Review
+1001563,Timur Mehrvarz,othy74@gmail.com,gmail.com,ORC,2009,Create Review,5,5,0,10,Create Review
+1004372,Srilakshmi Punuru,spunur@codeaurora.org,codeaurora.org,ORC,2010,Create Review,2,8,0,6,Create Review
+1005552,Seon Joon Park,sjpark@sta.samsung.com,sta.samsung.com,R,2011,CodeReview,0,10,0,0,Create Review
+1000445,Ed Heyl,edheyl@google.com,google.com,RC,2009,CodeReview,0,10,0,2,Create Review
+1004778,Peter Collingbourne,peter@pcc.me.uk,pcc.me.uk,ORC,2010,Create Review,7,3,0,3,Create Review
+1005388,DanielMo,DanielMo@fih-foxconn.com,fih-foxconn.com,ORC,2011,Create Review,6,4,0,5,Create Review
+1004395,Glenn Kasten,gkasten@android.com,android.com,RC,2010,CodeReview,0,10,0,16,Create Review
+1004589,Norris Lee,k9119911@gmail.com,gmail.com,OC,2010,Create Review,10,0,0,15,Create Review
+1002974,Karl Ostmo,kostmo@gmail.com,gmail.com,ORC,2009,Create Review,9,1,0,16,Create Review
+1000495,Evan JIANG,firstfan@gmail.com,gmail.com,ORC,2008,Create Review,7,3,0,4,Create Review
+1002417,Ray Chen,ray@android.com,android.com,VRC,2010,CodeReview,0,9,1,3,Create Review
+1004338,Ken Wakasa,kwakasa@google.com,google.com,VRC,2010,CodeReview,0,6,4,16,Create Review
+1001595,Ulrik Bech Hald,ubh@ti.com,ti.com,ORC,2009,CodeReview,5,5,0,7,Create Review
+1006501,Kaori Fujimoto,fujimoto.kaori@sharp.co.jp,sharp.co.jp,ORC,2011,Create Review,5,5,0,5,Create Review
+1003988,Szymon Jakubczak,szym@google.com,google.com,ORC,2010,Create Review,6,4,0,15,Create Review
+1003403,Daniel Sandler,dsandler@android.com,android.com,OVRC,2010,CodeReview,2,7,1,2,Create Review
+1004511,Srikanth Chintala,srikchin@codeaurora.org,codeaurora.org,OVRC,2010,Create Review,3,3,4,5,Create Review
+1004508,Channagoud Kadabi,ckadabi@codeaurora.org,codeaurora.org,ORC,2010,Create Review,7,2,0,7,Create Review
+1003711,Patrick Georgi,patrick@georgi-clan.de,georgi-clan.de,ORC,2010,Create Review,7,2,0,8,Create Review
+1004343,Andrei Warkentin,andreiw@motorola.com,motorola.com,RC,2011,CodeReview,0,9,0,4,Create Review
+1004142,Chris Soyars,ctso@ctso.me,ctso.me,ORC,2010,Create Review,5,4,0,12,Create Review
+1004525,Ravi Kumar Alamanda,arkumar@quicinc.com,quicinc.com,ORC,2011,CodeReview,1,8,0,6,Create Review
+1005355,Christopher Orr,None,None,ORC,2011,Create Review,4,5,0,7,Create Review
+1006636,Andy Gross,andy.gross@ti.com,ti.com,ORC,2011,CodeReview,1,8,0,2,Create Review
+1005412,Ashish Sharma,ashishsharma@google.com,google.com,ORC,2011,CodeReview,6,3,0,55,Create Review
+1002682,Jean-Michel Trivi,jmtrivi@android.com,android.com,VRC,2009,CodeReview,0,8,1,2,Create Review
+1002563,Chih-Wei Huang,cwhuang@android-x86.org,android-x86.org,ORC,2010,CodeReview,4,5,0,5,Create Review
+1003530,Satoshi Kataoka,satok@android.com,android.com,OVRC,2010,Create Review,1,6,2,10,Create Review
+1003793,Jamie Gennis,jgennis@google.com,google.com,ORC,2010,Create Review,2,7,0,5,Create Review
+1004896,Henrik Hall,henrik.hall@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,9,0,24,Create Review
+1002188,Simon Schoar,schoar@googlemail.com,googlemail.com,O,2009,Create Review,9,0,0,0,Create Review
+1001760,Scott Tsai,scottt.tw@gmail.com,gmail.com,ORC,2009,Create Review,7,2,0,3,Create Review
+1001692,Rodrigo Obregon,robregon@ti.com,ti.com,ORC,2010,Create Review,4,5,0,18,Create Review
+1005533,Ritu Srivastava,rsrivast@sta.samsung.com,sta.samsung.com,ORC,2011,CodeReview,3,6,0,4,Create Review
+1004266,Thiago Pereira Rocha,thigobr@gmail.com,gmail.com,ORC,2010,Create Review,6,3,0,8,Create Review
+1003630,Tony Wu,Tony_Wu@acer.com.tw,acer.com.tw,ORC,2010,CodeReview,6,3,0,7,Create Review
+1001940,Moiz Sonasath,m-sonasath@ti.com,ti.com,ORC,2009,Create Review,6,3,0,1,Create Review
+1004701,chulkwon.shin,chulkwon.shin@gmail.com,gmail.com,ORC,2010,Create Review,6,3,0,7,Create Review
+1003780,Michael Huang,mike.g.huang@gmail.com,gmail.com,ORC,2010,Create Review,7,2,0,9,Create Review
+1001777,Colin Godsey,crgodsey@gmail.com,gmail.com,ORC,2009,Create Review,6,2,0,18,Create Review
+1006270,SungHyun Kwon,sh.kwon@lge.com,lge.com,OC,2011,Create Review,8,0,0,7,Create Review
+1003142,Scott Turner,scott.turner.1024@gmail.com,gmail.com,OR,2010,Create Review,7,1,0,0,Create Review
+1005459,Thomas To,tto@google.com,google.com,RC,2011,CodeReview,0,8,0,5,Create Review
+1003701,Tomas Zajicek,zajict@gmail.com,gmail.com,O,2010,Create Review,8,0,0,0,Create Review
+1003338,Svetoslav Ganov,svetoslavganov@google.com,google.com,ORC,2010,CodeReview,3,5,0,7,Create Review
+1000232,Brock Atchison,None,None,ORC,2008,Create Review,5,3,0,2,Create Review
+1003334,Tim Hutt,tdhutt@gmail.com,gmail.com,ORC,2010,Create Review,3,5,0,7,Create Review
+1000418,S McCarthy,disconn3ct@gmail.com,gmail.com,ORC,2008,Create Review,2,6,0,9,Create Review
+1002702,Chen Guoyin,guoyin.chen@freescale.com,freescale.com,RC,2009,CodeReview,0,8,0,10,Create Review
+1005017,Dominic Binks,dbinks@codeaurora.org,codeaurora.org,OVRC,2010,Create Review,5,2,1,3,Create Review
+1006692,Derek Sollenberger,derek@android.com,android.com,OVRC,2011,Create Review,2,3,3,6,Create Review
+1000776,Koan-Sin Tan,koansin.tan@gmail.com,gmail.com,ORC,2008,Create Review,4,4,0,3,Create Review
+1001791,Yi Sun,beyounn@gmail.com,gmail.com,ORC,2009,Create Review,3,5,0,5,Create Review
+1010124,Masahiko Endo,masahiko.endo@gmail.com,gmail.com,OVC,2012,Create Review,4,0,4,4,Create Review
+1003324,Vikram Dhillon,None,None,RC,2010,CodeReview,0,8,0,12,Create Review
+1002719,Michael Richardson,mcr@credil.org,credil.org,ORC,2009,Create Review,6,2,0,7,Create Review
+1001523,Thomas Tuttle,thinkinginbinary@gmail.com,gmail.com,OVRC,2009,Create Review,3,3,2,5,Create Review
+1005346,Gilles Debunne,gilles.debunne%android.com@gtempaccount.com,gtempaccount.com,RC,2011,CodeReview,0,8,0,11,Create Review
+1005304,Ajay Nambi,anambi@codeaurora.org,codeaurora.org,ORC,2011,Create Review,4,4,0,8,Create Review
+1002012,Andy Sheen,freeanderson@gmail.com,gmail.com,ORC,2009,Create Review,6,2,0,5,Create Review
+1002403,vinay harugop,vinay.harugop@yahoo.com,yahoo.com,ORC,2009,Create Review,5,3,0,4,Create Review
+1003489,Stephen Boyd,sboyd@codeaurora.org,codeaurora.org,ORC,2010,Create Review,7,1,0,1,Create Review
+1005648,Oleg Matcovschi,olegmatcovsky@gmail.com,gmail.com,ORC,2011,Create Review,4,4,0,10,Create Review
+1003080,Matt Fischer,matt.fischer@garmin.com,garmin.com,RC,2010,CodeReview,0,8,0,24,Create Review
+1004359,Chris Fries,c.fries@motorola.com,motorola.com,ORC,2011,CodeReview,1,7,0,8,Create Review
+1004311,George Tang,georgetang@google.com,google.com,ORC,2010,Create Review,6,2,0,8,Create Review
+1003824,Tadashi G. Takaoka,takaoka@google.com,google.com,VRC,2010,CodeReview,0,6,2,5,Create Review
+1002035,Chia-I Wu,olvaffe@gmail.com,gmail.com,ORC,2009,Create Review,5,3,0,4,Create Review
+1005995,Christopher Schwardt,nookieman@gmx.de,gmx.de,ORC,2011,Create Review,6,1,0,2,Create Review
+1002162,Rajendra Nayak,rnayak@ti.com,ti.com,R,2009,CodeReview,0,7,0,0,Create Review
+1002136,Lesly Arackal Manuel,x0080970@ti.com,ti.com,RC,2009,CodeReview,0,7,0,6,Create Review
+1003092,Marc Petit-Huguenin,petithug@gmail.com,gmail.com,ORC,2010,Create Review,6,1,0,11,Create Review
+1004227,Junichi Monma,monma@google.com,google.com,VRC,2010,CodeReview,0,5,2,7,Create Review
+1004507,Pawan kumar Nimmagadda,pawan@codeaurora.org,codeaurora.org,ORC,2010,Create Review,6,1,0,2,Create Review
+1002033,Srinivas Pulukuru,None,None,R,2009,CodeReview,0,7,0,0,Create Review
+1001223,Sittiphol Phanvilai,sittiphol@gmail.com,gmail.com,ORC,2008,Create Review,4,3,0,2,Create Review
+1001220,Simon Braunschmidt,simon.braunschmidt@gmail.com,gmail.com,ORC,2008,Create Review,1,6,0,8,Create Review
+1005158,esther530,esther530@gmail.com,gmail.com,OC,2011,Create Review,7,0,0,1,Create Review
+1006313,Howard Chu,highlandsun@gmail.com,gmail.com,ORC,2011,Create Review,5,2,0,2,Create Review
+1003929,James Wylder,james.wylder@motorola.com,motorola.com,RC,2010,CodeReview,0,7,0,6,Create Review
+1005509,ebottleone,ebottleone@gmail.com,gmail.com,OC,2011,Create Review,7,0,0,7,Create Review
+1001956,Jack Veenstra,veenstra@android.com,android.com,ORC,2009,Create Review,5,2,0,8,Create Review
+1006586,densy,laiqifang@gmail.com,gmail.com,OR,2011,Create Review,6,1,0,0,Create Review
+1003665,Saravana Kannan,skannan@codeaurora.org,codeaurora.org,RC,2010,CodeReview,0,7,0,5,Create Review
+1006146,Matthew Xie,mattx@android.com,android.com,R,2011,CodeReview,0,7,0,0,Create Review
+1004484,Michael Webster,miketwebster@gmail.com,gmail.com,ORC,2010,Create Review,4,3,0,9,Create Review
+1000880,Marcelo E. Magallon,marcelo.magallon@gmail.com,gmail.com,ORC,2008,Create Review,4,3,0,5,Create Review
+1000095,Stefan Schülein,Stefan.Schuelein@teleca.com,teleca.com,RC,2008,Comment,0,7,0,13,Create Review
+1005307,Apurupa Pattapu,apurupa@codeaurora.org,codeaurora.org,ORC,2011,Create Review,6,1,0,9,Create Review
+1006308,Oskar Andero,oskar.andero@sonyericsson.com,sonyericsson.com,ORC,2011,CodeReview,5,2,0,9,Create Review
+1005551,DooHyunHwang,dh0421.hwang@samsung.com,samsung.com,R,2011,CodeReview,0,7,0,0,Create Review
+1004735,Dan Willemsen,dwillemsen@nvidia.com,nvidia.com,RC,2010,CodeReview,0,7,0,1,Create Review
+1001867,Tim Chick,timothy.j.chick@gmail.com,gmail.com,OC,2009,Create Review,7,0,0,5,Create Review
+1004749,Garth Bushell,garth.bushell@gmail.com,gmail.com,ORC,2010,Create Review,4,3,0,2,Create Review
+1005596,Scott Main,smain@android.com,android.com,VRC,2011,CodeReview,0,5,2,6,Create Review
+1004662,Ramanan Rajeswaran,ramanan@google.com,google.com,RC,2010,CodeReview,0,7,0,7,Create Review
+1003798,Shimeng (Simon) Wang,swang@google.com,google.com,VRC,2010,CodeReview,0,5,2,9,Create Review
+1002470,Martyn Capewell,martyn.capewell@arm.com,arm.com,RC,2010,CodeReview,0,7,0,11,Create Review
+1001863,Santosh Shilimkar,santosh.shilimkar@ti.com,ti.com,RC,2010,CodeReview,0,7,0,4,Create Review
+1004092,Chris Peterson,cpeterso@cpeterso.com,cpeterso.com,OR,2010,Create Review,5,1,0,0,Create Review
+1006576,Suresh Koleti,skolet@codeaurora.org,codeaurora.org,OC,2011,Create Review,6,0,0,1,Create Review
+1005351,None,cshapiro@google.com,google.com,R,2011,CodeReview,0,6,0,0,Create Review
+1004213,None,btmura@google.com,google.com,R,2010,CodeReview,0,6,0,0,Create Review
+1006195,Woo-seok Jang,usok.jang@gmail.com,gmail.com,OC,2011,Create Review,6,0,0,5,Create Review
+1002679,Nao Tanaka,nao.tanaka.cy@kyocera.jp,kyocera.jp,ORC,2011,Create Review,4,2,0,4,Create Review
+1004727,Magnus Lindhult,magnus.lindhult@sonyericsson.com,sonyericsson.com,R,2010,CodeReview,0,6,0,0,Create Review
+1005729,Terence Haddock,thaddock@google.com,google.com,ORC,2011,Create Review,4,2,0,14,Create Review
+1003152,Victor Boivie,vboivie@gmail.com,gmail.com,RC,2011,CodeReview,0,6,0,9,Create Review
+1004339,Zoltan Kuscsik,kuscsik@gmail.com,gmail.com,OC,2010,Create Review,6,0,0,9,Create Review
+1002999,Omri Baumer,omri.baumer@gmail.com,gmail.com,ORC,2009,Create Review,3,3,0,17,Create Review
+1003960,Andrew Kulikov,a.kulikov@f5.com,f5.com,ORC,2010,Create Review,3,3,0,10,Create Review
+1000628,Jackie Wu,jackie.wu%intel.com@gtempaccount.com,gtempaccount.com,ORC,2008,Create Review,4,2,0,8,Create Review
+1004262,Vivek Madathil,vivek.m@sasken.com,sasken.com,ORC,2010,Create Review,3,3,0,3,Create Review
+1004767,Niklas Brunlid,niklas.brunlid@sonyericsson.com,sonyericsson.com,RC,2011,CodeReview,0,6,0,3,Create Review
+1000052,Ben Gruver,jesusfreke@jesusfreke.com,jesusfreke.com,ORC,2009,Create Review,4,2,0,3,Create Review
+1005543,Anders Hasselqvist,anders.hasselqvist@gmail.com,gmail.com,OVRC,2011,Create Review,1,2,3,3,Create Review
+1004258,Kevin Powell,kpowell@invensense.com,invensense.com,OC,2010,Create Review,6,0,0,16,Create Review
+1006249,Qi Ling,qling@sta.samsung.com,sta.samsung.com,R,2011,CodeReview,0,6,0,0,Create Review
+1002663,Axel Haslam,axelhaslam@gmail.com,gmail.com,OR,2010,Create Review,3,3,0,0,Create Review
+1006364,Longer Chan,longer.chan@gmail.com,gmail.com,ORC,2011,Create Review,2,4,0,4,Create Review
+1004717,Guy Rosen,guy.rosen@vircado.com,vircado.com,ORC,2010,Create Review,4,2,0,5,Create Review
+1004746,Jongyeong Lee,jongyeong@google.com,google.com,RC,2010,CodeReview,0,6,0,3,Create Review
+1002088,Girish S Ghongdemath,girishsg@ti.com,ti.com,ORC,2009,Create Review,2,4,0,9,Create Review
+1003462,Seth Forshee,seth.forshee@garmin.com,garmin.com,RC,2010,CodeReview,0,6,0,3,Create Review
+1002712,Saravanan Solaiyappan,saravanan.s@ti.com,ti.com,ORC,2010,Create Review,3,3,0,5,Create Review
+1004428,Ben Dodson,bjdodson@google.com,google.com,OVRC,2010,Create Review,3,2,1,4,Create Review
+1006719,None,pascal.massimino@gmail.com,gmail.com,RC,2011,CodeReview,0,6,0,10,Create Review
+1001703,Vishal Mahaveer,vishalm@ti.com,ti.com,ORC,2009,Create Review,3,3,0,6,Create Review
+1006145,Adrian Zakrzewski,adrianz@google.com,google.com,ORC,2011,Create Review,4,2,0,15,Create Review
+1001830,Drew Jacobs,drewj@nearverse.com,nearverse.com,ORC,2009,Create Review,4,2,0,4,Create Review
+1001942,Chung-Yih Wang,cyw@android.com,android.com,ORC,2009,Create Review,2,4,0,4,Create Review
+1003806,Dan Egnor,egnor@google.com,google.com,VRC,2010,CodeReview,0,5,1,7,Create Review
+1010186,Andrew Hsieh,andrewhsieh@google.com,google.com,VRC,2012,Verify,0,1,4,1,Create Review
+1000576,Mike Hearn,hearn@google.com,google.com,ORC,2009,Create Review,3,2,0,11,Create Review
+1000691,Joe LaPenna,joe@joelapenna.com,joelapenna.com,ORC,2009,Create Review,4,1,0,2,Create Review
+1004614,Al Sutton,al@funkyandroid.com,funkyandroid.com,ORC,2010,Create Review,3,2,0,6,Create Review
+1005531,Jaegwan Shin,jgsin@samsung.com,samsung.com,R,2011,CodeReview,0,5,0,0,Create Review
+1005741,Pablo Leite,wpl020@motorola.com,motorola.com,ORC,2011,Create Review,4,1,0,11,Create Review
+1003335,pjv,ezelspinguin@gmail.com,gmail.com,ORC,2010,Create Review,1,4,0,8,Create Review
+1005512,None,mendelso@broadcom.com,broadcom.com,RC,2011,CodeReview,0,5,0,5,Create Review
+1000909,Matthieu CASTET,matthieu.castet@gmail.com,gmail.com,ORC,2008,Create Review,4,1,0,3,Create Review
+1003203,Woojae Lee,woo.j.lee@sprint.com,sprint.com,ORC,2010,Create Review,4,1,0,1,Create Review
+1001583,Hao Feng,hao.feng@intel.com,intel.com,ORC,2009,Create Review,3,2,0,7,Create Review
+1004820,Muthu Subramaniam,muthu@ti.com,ti.com,R,2011,CodeReview,0,5,0,0,Create Review
+1002512,Hiroshi Takekawa,sian.ht@gmail.com,gmail.com,ORC,2009,Create Review,3,2,0,8,Create Review
+1006603,Maciek Molerus,maciek@google.com,google.com,ORC,2011,Create Review,4,1,0,11,Create Review
+1000312,Chris Boyle,chris@boyle.name,boyle.name,OVR,2009,Create Review,2,2,1,0,Create Review
+1004696,Jonas Schwertfeger,jschwertfeger@gmail.com,gmail.com,ORC,2010,Create Review,3,2,0,5,Create Review
+1006469,Mårten Kongstad,marten.kongstad@sonyericsson.com,sonyericsson.com,RC,2011,CodeReview,0,5,0,5,Create Review
+1003411,Julien Chaffraix,jchaffraix@codeaurora.org,codeaurora.org,ORC,2010,Create Review,4,1,0,4,Create Review
+1004819,David Sobreira,davidps.marques@lge.com,lge.com,ORC,2010,Create Review,3,2,0,5,Create Review
+1002263,Marek Pola,marek.pola@gmail.com,gmail.com,ORC,2009,Create Review,3,2,0,5,Create Review
+1006479,Ievgenii Nazaruk,ievgenii.nazaruk@gmail.com,gmail.com,ORC,2011,Create Review,4,1,0,5,Create Review
+1004805,Bharat Nihalani,bnihalani@nvidia.com,nvidia.com,RC,2010,CodeReview,0,5,0,2,Create Review
+1006369,Vladimir Petrov,vppetrov@mm-sol.com,mm-sol.com,ORC,2011,Create Review,3,2,0,3,Create Review
+1003819,Scott Anderson,camel@droidmod.org,droidmod.org,ORC,2010,Create Review,2,3,0,8,Create Review
+1000162,Alexey Zaytsev,alexey.zaytsev@gmail.com,gmail.com,O,2008,Create Review,5,0,0,0,Create Review
+1000973,Muthu Ramadoss,muthu.ramadoss@gmail.com,gmail.com,ORC,2008,Create Review,4,1,0,2,Create Review
+1001983,David Strobach,lalochcz@gmail.com,gmail.com,ORC,2009,Create Review,3,2,0,3,Create Review
+1010199,Jake Wharton,jakewharton@gmail.com,gmail.com,ORC,2012,Create Review,4,1,0,1,Create Review
+1003491,Larry Bassel,lbassel@codeaurora.org,codeaurora.org,ORC,2010,Create Review,3,2,0,2,Create Review
+1006223,Gergely Nagy,ngg@ngg.hu,ngg.hu,ORC,2011,Create Review,2,3,0,5,Create Review
+1006557,None,yashdevs@codeaurora.org,codeaurora.org,OV,2011,Create Review,1,0,4,0,Create Review
+1001617,Omar Ramirez Luna,omar.ramirez@ti.com,ti.com,ORC,2009,CodeReview,2,3,0,1,Create Review
+1005846,David Dong,zhiming.dong@gmail.com,gmail.com,ORC,2011,Create Review,4,1,0,1,Create Review
+1001613,Scott Branden,sbranden@gmail.com,gmail.com,ORC,2009,Create Review,2,3,0,4,Create Review
+1001380,Vladimir Baryshnikov,vovkab@gmail.com,gmail.com,ORC,2009,Create Review,4,1,0,1,Create Review
+1003598,None,dougfelt@google.com,google.com,RC,2010,CodeReview,0,5,0,1,Create Review
+1004649,Glenn Kasten,gkasten@android.com,android.com,ORC,2010,CodeReview,1,4,0,14,Create Review
+1006468,Mark Gordon,msg555@gmail.com,gmail.com,ORC,2011,Create Review,4,1,0,7,Create Review
+1003980,lntinfotech.android@gmail.com,lntinfotech.android@gmail.com,gmail.com,ORC,2010,Create Review,4,1,0,3,Create Review
+1003031,Wes Garner,wesgarner@gmail.com,gmail.com,ORC,2010,CodeReview,1,4,0,6,Create Review
+1003951,Chris Pearson,christopherx.c.pearson@intel.com,intel.com,ORC,2010,Create Review,4,1,0,2,Create Review
+1005592,Ravindraraj Mamadgi,rmamadgi@sta.samsung.com,sta.samsung.com,RC,2011,CodeReview,0,5,0,2,Create Review
+1004336,Patrick Dubroy,dubroy@google.com,google.com,RC,2010,CodeReview,0,5,0,2,Create Review
+1010118,Ian Rogers,irogers@google.com,google.com,VRC,2012,Verify,0,3,2,4,Create Review
+1001248,Sriram Raman,sriramkraman@google.com,google.com,OR,2009,Create Review,1,4,0,0,Create Review
+1002717,Tyler Luu,None,None,R,2010,CodeReview,0,5,0,0,Create Review
+1002746,Linus Walleij,linus.walleij@stericsson.com,stericsson.com,ORC,2009,Create Review,2,3,0,2,Create Review
+1004601,Dongseok Yi,tobitoba@gmail.com,gmail.com,ORC,2010,Create Review,3,2,0,3,Create Review
+1002706,karimuddin sayed,sayed.karimuddin@ti.com,ti.com,ORC,2010,CodeReview,1,4,0,4,Create Review
+1010081,Jacob Nordfalk,jacob.nordfalk@gmail.com,gmail.com,ORC,2012,Create Review,3,2,0,9,Create Review
+1003663,Stefan Hilzinger,hilzinger@google.com,google.com,ORC,2010,Create Review,2,3,0,6,Create Review
+1005332,compalcomm,popopo938@gmail.com,gmail.com,ORC,2011,Create Review,3,2,0,7,Create Review
+1000977,Tatsuo Nagamatsu,nagamatu@gmail.com,gmail.com,ORC,2010,Create Review,2,3,0,4,Create Review
+1003547,Abdalla Osama Mohammed,engineer.abdalla@gmail.com,gmail.com,ORC,2010,CodeReview,3,1,0,1,Create Review
+1005310,Urs Fleisch,urs.fleisch@gmail.com,gmail.com,ORC,2011,Create Review,3,1,0,5,Create Review
+1006734,Dimitris Papastamos,dp@opensource.wolfsonmicro.com,opensource.wolfsonmicro.com,ORC,2011,Create Review,2,2,0,10,Create Review
+1004027,Vilmos Nebehaj,v.nebehaj@gmail.com,gmail.com,ORC,2010,Create Review,3,1,0,5,Create Review
+1002537,Eiven Peng,eiven_peng@htc.com,htc.com,RC,2009,CodeReview,0,4,0,4,Create Review
+1006748,Jason Gerecke,killertofu@gmail.com,gmail.com,O,2011,Create Review,4,0,0,0,Create Review
+1003738,David Kohen,kohen.d@gmail.com,gmail.com,ORC,2010,Create Review,2,2,0,8,Create Review
+1000692,Jon Larimer,jlarimer@gmail.com,gmail.com,OC,2008,Create Review,4,0,0,4,Create Review
+1004516,Vinay Kalia,vkalia@codeaurora.org,codeaurora.org,ORC,2011,Create Review,3,1,0,1,Create Review
+1000728,Jyunji Kondo,jyukon@gmail.com,gmail.com,ORC,2008,Create Review,3,1,0,3,Create Review
+1002477,Ondrej Novy,ondrej.novy@gmail.com,gmail.com,ORC,2009,Create Review,2,2,0,2,Create Review
+1004288,Giorgos Mavrikas,gmavrikas@googlemail.com,googlemail.com,ORC,2011,Create Review,3,1,0,1,Create Review
+1004762,I don&#39;t think so.,handsomejohnny4@gmail.com,gmail.com,RC,2011,CodeReview,0,4,0,8,Create Review
+1001586,Jorge Enrique Solano Altamirano,jsolano@ti.com,ti.com,RC,2009,CodeReview,0,4,0,4,Create Review
+1001995,None,nikhil@ti.com,ti.com,R,2009,CodeReview,0,4,0,0,Create Review
+1003524,David Tseng,dtseng@google.com,google.com,OC,2010,Create Review,4,0,0,6,Create Review
+1000818,David Lindquist,lindquist@pv.com,pv.com,OC,2010,Create Review,4,0,0,2,Create Review
+1002126,Mike Turquette,None,None,ORC,2009,Create Review,3,1,0,1,Create Review
+1005545,Martin Long,martin@longhome.co.uk,longhome.co.uk,ORC,2011,Create Review,3,1,0,7,Create Review
+1005044,Xia Wang,xiaw@google.com,google.com,RC,2010,CodeReview,0,4,0,5,Create Review
+1004943,Deepika Sai Amuri,damuri@codeaurora.org,codeaurora.org,ORC,2010,Create Review,3,1,0,7,Create Review
+1006280,Johannes Rudolph,johannes.rudolph@gmail.com,gmail.com,ORC,2011,Create Review,3,1,0,4,Create Review
+1003871,None,johnwang@google.com,google.com,RC,2010,CodeReview,0,4,0,5,Create Review
+1003917,Johan Lindström,johan.d.lindstrom@ericsson.com,ericsson.com,O,2010,Create Review,4,0,0,0,Create Review
+1003007,Marc Capdevielle,marc.capdevielle@gmail.com,gmail.com,ORC,2009,Create Review,3,1,0,7,Create Review
+1003384,Sean Foy,sean.foy@gmail.com,gmail.com,ORC,2010,Create Review,2,2,0,2,Create Review
+1002015,Haley Teng,Haley_Teng@htc.com,htc.com,R,2010,CodeReview,0,4,0,0,Create Review
+1001713,Jean Johnson,jean-johnson@ti.com,ti.com,R,2011,CodeReview,0,4,0,0,Create Review
+1002602,Sachin Kumar,sachin.kumar@clearwire.com,clearwire.com,O,2009,Create Review,4,0,0,0,Create Review
+1006151,James Yun,james.yun@samsung.com,samsung.com,R,2011,CodeReview,0,4,0,0,Create Review
+1004876,Petter Wallin,petter.wallin@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,4,0,4,Create Review
+1006481,Tanguy PRUVOT,tanguy.pruvot@gmail.com,gmail.com,OVRC,2012,Create Review,2,1,1,3,Create Review
+1004731,Amos Hur,amos.hur@gmail.com,gmail.com,RC,2010,CodeReview,0,4,0,5,Create Review
+1002181,Chander S Pechetty,chanderspechetty@unisaran.com,unisaran.com,ORC,2010,Create Review,3,1,0,2,Create Review
+1005955,Patrik Kullman,patrik.kullman@gmail.com,gmail.com,ORC,2011,Create Review,3,1,0,1,Create Review
+1000290,Chanwit Kaewkasi,chanwit@gmail.com,gmail.com,ORC,2008,Create Review,1,3,0,10,Create Review
+1004822,Janos Levai,digistyl3@gmail.com,gmail.com,ORC,2010,Create Review,1,3,0,8,Create Review
+1002952,Peter McQuillan,beatofthedrum@gmail.com,gmail.com,ORC,2009,Create Review,3,1,0,11,Create Review
+1006578,Tero Saarni,tero.saarni@gmail.com,gmail.com,ORC,2011,Create Review,2,2,0,2,Create Review
+1004537,Jason Sams,jsams@google.com,google.com,RC,2010,CodeReview,0,4,0,1,Create Review
+1006742,Zach Pfeffer,None,None,V,2012,Verify,0,0,4,0,Create Review
+1005383,Pankaj Jindal,pankajjindal@ti.com,ti.com,VRC,2011,CodeReview,0,2,2,3,Create Review
+1000529,Gergely Kis,gergely.kis@gmail.com,gmail.com,ORC,2010,Create Review,3,1,0,1,Create Review
+1005473,Steven Zhang,stevenzhang@google.com,google.com,RC,2011,CodeReview,0,4,0,3,Create Review
+1003313,Viral Mehta,viral.vkm@gmail.com,gmail.com,OR,2010,Create Review,3,1,0,0,Create Review
+1005489,Alwin Chi,alwin@google.com,google.com,R,2011,CodeReview,0,4,0,0,Create Review
+1005768,Pär Spjuth,par.spjuth@sonyericsson.com,sonyericsson.com,RC,2011,CodeReview,0,4,0,6,Create Review
+1001976,Billy Cui,billy@dianxinos.com,dianxinos.com,ORC,2009,Create Review,2,2,0,2,Create Review
+1001545,Sigmar Lingner,Sigmar.Lingner@teleca.com,teleca.com,RC,2009,CodeReview,0,4,0,5,Create Review
+1001797,Chuck Williams,chuck@manawiz.com,manawiz.com,O,2009,Create Review,4,0,0,0,Create Review
+1006267,Bernhard Reutner-Fischer,rep.dot.nop@gmail.com,gmail.com,ORC,2011,Create Review,3,1,0,1,Create Review
+1005589,Marco Sinigaglia,marco.sinigaglia@csr.com,csr.com,ORC,2011,CodeReview,2,2,0,5,Create Review
+1004779,Dustin Jorge,dustin.jorge@gmail.com,gmail.com,OC,2010,Create Review,4,0,0,2,Create Review
+1005969,Gregory Roth,groth@nvidia.com,nvidia.com,ORC,2011,Create Review,2,2,0,3,Create Review
+1003762,Makarand Karvekar,makarand.karvekar@motorola.com,motorola.com,R,2011,CodeReview,0,4,0,0,Create Review
+1005571,Björn Lundén,blunden2@gmail.com,gmail.com,ORC,2011,Create Review,1,3,0,7,Create Review
+1005834,Devaraj Rangasamy,r.devaraj@gmail.com,gmail.com,ORC,2011,Create Review,1,3,0,3,Create Review
+1000366,Dan Griffin,dan.griffin@wdsglobal.com,wdsglobal.com,ORC,2009,Create Review,3,1,0,18,Create Review
+1005309,Srinivas Krovvidi,skrovvid@codeaurora.org,codeaurora.org,ORC,2011,Create Review,3,1,0,7,Create Review
+1002743,Muni Anda,muni@nvidia.com,nvidia.com,RC,2011,CodeReview,0,4,0,6,Create Review
+1004380,Joe Malin,jmalin@google.com,google.com,ORC,2010,Create Review,3,1,0,3,Create Review
+1000689,Jianhong Jiang,jjiang@pv.com,pv.com,RC,2009,CodeReview,0,4,0,1,Create Review
+1000330,Cliff Spradlin,cliff_spradlin@htc.com,htc.com,ORC,2008,Create Review,2,2,0,3,Create Review
+1003567,Taehoon Lee,notpig@gmail.com,gmail.com,ORC,2011,Create Review,3,1,0,2,Create Review
+1000389,David Yue,davidyue2007@gmail.com,gmail.com,RC,2010,CodeReview,0,4,0,9,Create Review
+1002452,None,jared.suttles@motorola.com,motorola.com,R,2009,CodeReview,0,4,0,0,Create Review
+1002617,Christoffer Gurell,chgur@tat.se,tat.se,ORC,2009,Create Review,3,1,0,4,Create Review
+1000443,Michael A. Krehan,ebomike@gmail.com,gmail.com,ORC,2009,Create Review,2,2,0,4,Create Review
+1006191,Sandeep S.P,sandeep.palakshappa@wipro.com,wipro.com,O,2011,Create Review,4,0,0,0,Create Review
+1003391,Bheemsen kulkarni,x0099674@ti.com,ti.com,ORC,2010,Create Review,2,2,0,6,Create Review
+1001977,Dani Baeyens,daniel.baeyens@gmail.com,gmail.com,ORC,2009,Create Review,2,2,0,7,Create Review
+1002774,Suneel Khare,khare@pv.com,pv.com,RC,2009,CodeReview,0,4,0,5,Create Review
+1005255,Shuhrat Dehkanov,uzbmaster@gmail.com,gmail.com,ORC,2011,Create Review,3,1,0,3,Create Review
+1006138,Pascal Terjan,pterjan@google.com,google.com,ORC,2011,Create Review,2,1,0,2,Create Review
+1002152,Maulik Mankad,None,None,RC,2009,CodeReview,0,3,0,1,Create Review
+1002139,Govindraj,govindraj.raja@ti.com,ti.com,RC,2009,CodeReview,0,3,0,3,Create Review
+1001989,Pallavi Kulkarni,p-kulkarni@ti.com,ti.com,R,2009,CodeReview,0,3,0,0,Create Review
+1004714,Rebecca Hu,Rebecca_Hu@acer.com.tw,acer.com.tw,ORC,2010,Create Review,2,1,0,3,Create Review
+1000569,Hanumanthu,hanumanthug@gmail.com,gmail.com,V,2012,Verify,0,0,3,0,Create Review
+1002216,Pallabi Parveen,parveen2728@gmail.com,gmail.com,R,2009,CodeReview,0,3,0,0,Create Review
+1010229,cuong bui,cuongbui@gmail.com,gmail.com,OC,2012,Create Review,3,0,0,1,Create Review
+1000820,Jiang Jiang,linuxemacs@gmail.com,gmail.com,OR,2008,Create Review,2,1,0,0,Create Review
+1005832,Nolan Darilek,nolan@thewordnerd.info,thewordnerd.info,O,2011,Create Review,3,0,0,0,Create Review
+1004938,Rekha Kumar,rekhak@codeaurora.org,codeaurora.org,OC,2010,Create Review,3,0,0,1,Create Review
+1003964,Ben Komalo,benkomalo@google.com,google.com,VRC,2011,CodeReview,0,2,1,6,Create Review
+1005982,Stuart MacDonald,stuart.macdonald@stericsson.com,stericsson.com,RC,2011,CodeReview,0,3,0,2,Create Review
+1004879,Sunita Nadampalli,sunitan@ti.com,ti.com,RC,2011,CodeReview,0,3,0,4,Create Review
+1004438,Andreas Sandblad,andreas.sandblad@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,3,0,1,Create Review
+1003225,Barry Woodward,b-woodward@ti.com,ti.com,R,2010,CodeReview,0,3,0,0,Create Review
+1003716,Fredrik Lanker,fredrik.lanker@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,3,0,3,Create Review
+1002112,Jonathan Herriott,herriojr@gmail.com,gmail.com,ORC,2009,Create Review,2,1,0,1,Create Review
+1001809,Bob Lee,None,None,RC,2009,CodeReview,0,3,0,2,Create Review
+1003549,David Hoover,karma@deadmoose.com,deadmoose.com,ORC,2010,Create Review,2,1,0,1,Create Review
+1010108,Jeff Hao,jeffhao@google.com,google.com,VRC,2012,Verify,0,2,1,2,Create Review
+1005312,Joerie de Gram,j.de.gram@gmail.com,gmail.com,O,2011,Create Review,3,0,0,0,Create Review
+1002904,Masood Mortazavi,masoodmortazavi@gmail.com,gmail.com,RC,2009,CodeReview,0,3,0,3,Create Review
+1006023,Kir Kolyshkin,kolyshkin@gmail.com,gmail.com,ORC,2011,Create Review,1,2,0,3,Create Review
+1001648,Chang Ming,pkuchm@gmail.com,gmail.com,ORC,2009,Create Review,2,1,0,1,Create Review
+1006309,Arjun Gadhia,arjungadhia@gmail.com,gmail.com,O,2011,Create Review,3,0,0,0,Create Review
+1003402,None,fadden@google.com,google.com,R,2011,CodeReview,0,3,0,0,Create Review
+1010070,SeongJae Park,sj38.park@gmail.com,gmail.com,OVC,2012,Create Review,2,0,1,2,Create Review
+1004697,StevenHuang,Steven_Huang@acer.com.tw,acer.com.tw,OC,2010,Create Review,3,0,0,3,Create Review
+1001948,Aaron Kushner,akushner@gmail.com,gmail.com,ORC,2009,Create Review,2,1,0,2,Create Review
+1010121,Bernhard Rosenkränzer,Bernhard.Rosenkranzer@linaro.org,linaro.org,O,2012,Create Review,3,0,0,0,Create Review
+1004435,Chie NODA,noda@nttdocomo.co.jp,nttdocomo.co.jp,OC,2010,Create Review,3,0,0,10,Create Review
+1002446,becker hsieh,becker_hsieh@htc.com,htc.com,R,2009,CodeReview,0,3,0,0,Create Review
+1000032,Dima,Dm.Berc@gmail.com,gmail.com,R,2010,CodeReview,0,3,0,0,Create Review
+1003565,Mike Dodd,mdodd@android.com,android.com,RC,2010,CodeReview,0,3,0,1,Create Review
+1004335,Simon Wilson,swilson@codeaurora.org,codeaurora.org,RC,2010,CodeReview,0,3,0,4,Create Review
+1001420,Xiaopeng Yang,xiaopeng.yang@windriver.com,windriver.com,OC,2008,Create Review,3,0,0,1,Create Review
+1003535,Szabolcs Vrbos,szabolcs.vrbos@gmail.com,gmail.com,ORC,2010,Create Review,1,2,0,3,Create Review
+1005602,Ricardo Cerqueira,aosp@cerqueira.org,cerqueira.org,ORC,2011,Create Review,2,1,0,4,Create Review
+1002275,Chris Frage,devel.sh0@googlemail.com,googlemail.com,O,2009,Create Review,3,0,0,0,Create Review
+1001964,Li Wenhao,liwenhao.g@gmail.com,gmail.com,O,2009,Create Review,3,0,0,0,Create Review
+1010116,Sean Barbeau,sjbarbeau@gmail.com,gmail.com,O,2012,Create Review,3,0,0,0,Create Review
+1006045,Sundar Raman,raman.sundara2000@gmail.com,gmail.com,ORC,2011,Create Review,1,2,0,1,Create Review
+1000428,Dong-Yuan Chen,dong-yuan.chen@intel.com,intel.com,RC,2009,CodeReview,0,3,0,4,Create Review
+1003300,Steve Zeigler,sfzeigler@gmail.com,gmail.com,O,2010,Create Review,3,0,0,0,Create Review
+1002367,David Brown,davidb@codeaurora.org,codeaurora.org,OR,2009,Create Review,1,2,0,0,Create Review
+1003480,Abhijeet Dharmapurikar,adharmap@codeaurora.org,codeaurora.org,ORC,2010,Create Review,2,1,0,1,Create Review
+1001918,Edin Hodzic,dino@concisoft.com,concisoft.com,ORC,2009,Create Review,2,1,0,5,Create Review
+1005886,david reid,zathrasorama@gmail.com,gmail.com,O,2011,Create Review,3,0,0,0,Create Review
+1004022,Tim Renouf,tpr.android@botech.co.uk,botech.co.uk,ORC,2010,Create Review,1,2,0,3,Create Review
+1002495,James Luan,james.luan@motorola.com,motorola.com,RC,2009,CodeReview,0,3,0,2,Create Review
+1000861,Yusuke Ohmichi(maimuzo),maimuzo@gmail.com,gmail.com,ORC,2008,Create Review,2,1,0,2,Create Review
+1010082,Ben Murdoch,benm@android.com,android.com,V,2012,Verify,0,0,3,0,Create Review
+1001276,Sun Zhigang,sunner@gmail.com,gmail.com,ORC,2010,Create Review,2,1,0,12,Create Review
+1005962,Kimiyoshi Kusaka,kusaka.kimiyoshi@sharp.co.jp,sharp.co.jp,ORC,2011,Create Review,2,1,0,1,Create Review
+1006226,Joseph Hwang,kshwang@google.com,google.com,RC,2011,CodeReview,0,3,0,1,Create Review
+1002792,Evan Charlton,evancharlton@gmail.com,gmail.com,ORC,2009,CodeReview,1,2,0,3,Create Review
+1003315,Keith Preston,keithpre@gmail.com,gmail.com,ORC,2010,Create Review,2,1,0,4,Create Review
+1004463,Hemant Hariyani,hemanthariyani@ti.com,ti.com,ORC,2010,CodeReview,1,2,0,6,Create Review
+1005833,Kenneth Westin,kenneth.westin@sonyericsson.com,sonyericsson.com,RC,2011,CodeReview,0,3,0,2,Create Review
+1004184,Andrew Pritchard,None,None,ORC,2010,Create Review,2,1,0,1,Create Review
+1001115,René De Groot,rcgroot@gmail.com,gmail.com,OC,2009,Create Review,3,0,0,6,Create Review
+1006215,Kobi Cohen-Arazi,kobic@codeaurora.org,codeaurora.org,ORC,2011,Create Review,2,1,0,1,Create Review
+1003390,Joakim Elvander,joakim.elvander@sonyericsson.com,sonyericsson.com,ORC,2010,Create Review,1,2,0,2,Create Review
+1004316,Julien Duponchelle,noplay@noplay.net,noplay.net,ORC,2010,Create Review,2,1,0,4,Create Review
+1004173,None,Johan.Redestig@sonyericsson.com,sonyericsson.com,RC,2011,CodeReview,0,3,0,1,Create Review
+1002059,Cedric Beust,cbeust@google.com,google.com,VRC,2009,Verify,0,2,1,2,Create Review
+1000624,Ivan Djelic,ivan.djelic@parrot.com,parrot.com,ORC,2008,Create Review,2,1,0,3,Create Review
+1002637,yenliangl,yenliangl@gmail.com,gmail.com,ORC,2010,Create Review,2,1,0,5,Create Review
+1000903,Mathias Agopian,mathias.agopian@gmail.com,gmail.com,RC,2009,CodeReview,0,3,0,1,Create Review
+1005337,Josh Stone,cuviper@gmail.com,gmail.com,OC,2011,Create Review,3,0,0,3,Create Review
+1002842,Mathieu Parent,math.parent@gmail.com,gmail.com,O,2009,Create Review,3,0,0,0,Create Review
+1005379,Peter Zu,pzu@nvidia.com,nvidia.com,RC,2011,CodeReview,0,3,0,4,Create Review
+1001718,Daniel Silverstone,None,None,ORC,2009,Create Review,2,1,0,2,Create Review
+1004304,Thomas Tuttle (Google),ttuttle@google.com,google.com,ORC,2010,Create Review,2,1,0,5,Create Review
+1002274,Danke Xie,danke.xie@gmail.com,gmail.com,RC,2010,CodeReview,0,3,0,2,Create Review
+1002543,mogimo,mogimogio@gmail.com,gmail.com,ORC,2009,Create Review,2,1,0,3,Create Review
+1006165,Ashish Bhatia,ashishbhatia.ab@gmail.com,gmail.com,ORC,2011,Create Review,2,1,0,2,Create Review
+1010233,Masayuki Takeda,takeda.masayuki@sharp.co.jp,sharp.co.jp,OV,2012,Verify,1,0,2,0,Create Review
+1003202,Björn Davidsson,bjorn.davidsson@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,3,0,3,Create Review
+1005087,Alex Frid,afrid@nvidia.com,nvidia.com,RC,2010,CodeReview,0,3,0,16,Create Review
+1002758,Gilles Duboscq,gilwooden@gmail.com,gmail.com,ORC,2009,Create Review,1,2,0,4,Create Review
+1004577,Shin-ichiro Fukuda,s-fukuda@motoya.co.jp,motoya.co.jp,ORC,2010,Create Review,2,1,0,7,Create Review
+1005028,None,reena@google.com,google.com,R,2011,CodeReview,0,3,0,0,Create Review
+1003450,None,Johannes.Carlsson.x@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,3,0,9,Create Review
+1004476,Andrea Zinicola,andrea@inqmobile.com,inqmobile.com,OC,2010,Create Review,3,0,0,1,Create Review
+1004421,Daisuke Motooka,daisuke.motooka@gmail.com,gmail.com,RC,2011,CodeReview,0,3,0,12,Create Review
+1005034,Matthias Bady,aegirxx@googlemail.com,googlemail.com,ORC,2010,Create Review,2,1,0,1,Create Review
+1002565,Cheng Ke,chengke.info@gmail.com,gmail.com,ORC,2010,Create Review,2,1,0,3,Create Review
+1006205,Volodymyr Riazantsev,x0153367@ti.com,ti.com,O,2011,Create Review,3,0,0,0,Create Review
+1004861,Carlos Aceff,x0084298@ti.com,ti.com,ORC,2010,CodeReview,1,2,0,3,Create Review
+1004327,Andreas Oberritter,obi@saftware.de,saftware.de,ORC,2010,Create Review,2,1,0,4,Create Review
+1010077,Zoran Jovanovic,zoran.jovanovic@sonyericsson.com,sonyericsson.com,OVC,2012,Create Review,2,0,1,1,Create Review
+1004709,Ravindra Lokhande,rlokhande@nvidia.com,nvidia.com,R,2010,CodeReview,0,3,0,0,Create Review
+1006698,Catherine Liu,Catherine.Liu@motorola.com,motorola.com,O,2011,Create Review,3,0,0,0,Create Review
+1002507,Ian Peters,ipeters@gmail.com,gmail.com,OR,2009,Create Review,1,2,0,0,Create Review
+1003010,Cuihtlauac Alvarado,cuihtlauac.alvarado@orange-ftgroup.com,orange-ftgroup.com,O,2011,Create Review,3,0,0,0,Create Review
+1003575,Michael Wilson,meowfaceman@gmail.com,gmail.com,OC,2010,Create Review,3,0,0,7,Create Review
+1010130,Dominik Sliwa,dominiksliwa@gmail.com,gmail.com,OVRC,2012,Create Review,1,1,1,4,Create Review
+1002175,Goodwin Ogbuehi,reddoordesign@gmail.com,gmail.com,ORC,2009,Create Review,2,1,0,3,Create Review
+1005916,Purdea Andrei,andrei@purdea.ro,purdea.ro,O,2011,Create Review,2,0,0,0,Create Review
+1004328,Héctor Cordobés,hcordobes@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,3,Create Review
+1004138,Shay Har-Zahav,shay@celltick.com,celltick.com,ORC,2010,Create Review,1,1,0,8,Create Review
+1010188,Kei Takahashi,KeiA.Takahashi@jp.sony.com,jp.sony.com,OVC,2012,Create Review,1,0,1,1,Create Review
+1002781,Daoqi Bao,winstonbao@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,2,Create Review
+1001383,Vernon Singleton,vsingleton@gmail.com,gmail.com,O,2008,Create Review,2,0,0,0,Create Review
+1006823,Carlos Leija,cileija@ti.com,ti.com,R,2011,CodeReview,0,2,0,0,Create Review
+1005839,Le Van Khanh,khanhlvbka@gmail.com,gmail.com,O,2011,Create Review,2,0,0,0,Create Review
+1005474,Ari Hirvonen,ahirvonen@nvidia.com,nvidia.com,ORC,2011,Create Review,1,1,0,2,Create Review
+1010126,Dmitry Bulashevich,d.bulashevich@gmail.com,gmail.com,ORC,2012,Create Review,1,1,0,2,Create Review
+1006177,Francis Devereux,francis@devrx.org,devrx.org,OC,2011,Create Review,2,0,0,4,Create Review
+1001635,Vadim Lebedev,vadim@mbdsys.com,mbdsys.com,ORC,2009,Create Review,1,1,0,2,Create Review
+1004080,Reza Mohammadi,reza@farsitel.com,farsitel.com,O,2010,Create Review,2,0,0,0,Create Review
+1001998,Zhiqiang Wang,wang.9264@gmail.com,gmail.com,O,2009,Create Review,2,0,0,0,Create Review
+1004558,Sagar Shah,sagars@codeaurora.org,codeaurora.org,ORC,2010,Create Review,1,1,0,1,Create Review
+1005581,Douglas Fabiano Drumond de Carvalho,douglas@eee19.com,eee19.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1003786,Rehab Mohamed,eng.rehab.mohamed@gmail.com,gmail.com,OC,2010,Create Review,2,0,0,2,Create Review
+1006294,Steven Xia,sxia@sta.samsung.com,sta.samsung.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1002331,Florian Echtler,floe@butterbrot.org,butterbrot.org,ORC,2009,Create Review,1,1,0,1,Create Review
+1001839,Ji Xiao,ejx002@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1004274,Vikram Kandukuri,vikram.kandukuri@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,1,Create Review
+1002650,A.Grunewald,andreas.grunewald@gmail.com,gmail.com,RC,2009,CodeReview,0,2,0,1,Create Review
+1005631,Charan Singh,charansingh.online@gmail.com,gmail.com,RC,2011,CodeReview,0,2,0,3,Create Review
+1004166,Sergey Kudakov,sergey.kudakov@motorola.com,motorola.com,ORC,2010,CodeReview,1,1,0,5,Create Review
+1003652,Cosmin Cojocar,cosmin.cojocar@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1006553,Marc Blank,mblank@google.com,google.com,RC,2011,CodeReview,0,2,0,2,Create Review
+1006232,Stefan Diewald,stefan.diewald@mytum.de,mytum.de,ORC,2011,Create Review,1,1,0,2,Create Review
+1004471,Marc Olivier Chouinard,mochouinard@moctel.com,moctel.com,O,2010,Create Review,2,0,0,0,Create Review
+1005769,soledad penades,supersole@gmail.com,gmail.com,O,2011,Create Review,2,0,0,0,Create Review
+1004360,Roberto Murillo,mstberto@gmail.com,gmail.com,RC,2010,CodeReview,0,2,0,14,Create Review
+1003757,Nicholas Killewald,captainspam@gmail.com,gmail.com,OR,2010,Create Review,1,1,0,0,Create Review
+1002172,Tom Rix,tom.rix@windriver.com,windriver.com,ORC,2009,Create Review,1,1,0,2,Create Review
+1006016,Qing Chang,changq@gmail.com,gmail.com,RC,2011,CodeReview,0,2,0,3,Create Review
+1010217,Yutaro Ogasawara,yutaro.ogasawara@gmail.com,gmail.com,O,2012,Create Review,2,0,0,0,Create Review
+1005376,George Gugulea,gugulea@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,3,Create Review
+1002121,Ajay Dudani,adudani@codeaurora.org,codeaurora.org,ORC,2010,Create Review,1,1,0,3,Create Review
+1001428,Omari Stephens,xsdg@google.com,google.com,RC,2008,Comment,0,2,0,1,Create Review
+1001754,Edward Hervey,bilboed@bilboed.com,bilboed.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1001377,Virasak Dungsrikaew,virasak@gmail.com,gmail.com,RC,2008,Comment,0,2,0,2,Create Review
+1005024,Jeffrey Carlyle,jeff.carlyle@motorola.com,motorola.com,RC,2010,CodeReview,0,2,0,3,Create Review
+1006530,Daniel Tschinder,code@tschinder.de,tschinder.de,ORC,2011,Create Review,1,1,0,1,Create Review
+1003542,Bjorn Andersson,bjorn.andersson@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,2,0,2,Create Review
+1003385,Shubhraprakash Das,shubhraprakash@gmail.com,gmail.com,RC,2010,CodeReview,0,2,0,2,Create Review
+1002365,Josh Guilfoyle,josh.guilfoyle@t-mobile.com,t-mobile.com,ORC,2011,Create Review,1,1,0,8,Create Review
+1003550,Ryszard Perkowski,usultis@gmail.com,gmail.com,OR,2010,Create Review,1,1,0,0,Create Review
+1001978,Magnus Landqvist,magnus.landqvist@gmail.com,gmail.com,RC,2009,CodeReview,0,2,0,3,Create Review
+1005295,Vinicius Roberto Vieira,wvv002@motorola.com,motorola.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1005384,caine tighe,ciphersbynil@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,3,Create Review
+1002187,Joe Bowbeer,joe.bowbeer@gmail.com,gmail.com,RC,2009,CodeReview,0,2,0,3,Create Review
+1000743,Keith Deacon,keith.deacon@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1003298,Paul Lind,plind44@gmail.com,gmail.com,R,2011,CodeReview,0,2,0,0,Create Review
+1002245,Alexis ROBERT,alexis.robert@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1006175,Andreas Gustafsson,None,None,RC,2011,CodeReview,0,2,0,4,Create Review
+1002459,Jon Hunter,jon-hunter@ti.com,ti.com,O,2009,Create Review,2,0,0,0,Create Review
+1001408,Wolfgang Schmidt,wolfgang.schmidt@teleca.com,teleca.com,RC,2008,Comment,0,2,0,4,Create Review
+1006183,Drazen Navratil,drazen.navratil@gmail.com,gmail.com,O,2011,Create Review,2,0,0,0,Create Review
+1003533,Perry Nguyen,pfnguyen@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,3,Create Review
+1002671,Brian Daugherty,bdaugher@codeaurora.org,codeaurora.org,RC,2011,CodeReview,0,2,0,1,Create Review
+1010187,Partha Narasimhan,parthan@gmail.com,gmail.com,O,2012,Create Review,2,0,0,0,Create Review
+1004799,Zhiguo Zhu,chinaktv@gmail.com,gmail.com,RC,2010,CodeReview,0,2,0,1,Create Review
+1005972,Mark Tyler,mark.tyler@ti.com,ti.com,OR,2011,CodeReview,1,1,0,0,Create Review
+1001622,Mikkel Christensen,mlc@ti.com,ti.com,RC,2009,CodeReview,0,2,0,3,Create Review
+1005152,SeongJae Park,nilakantha38@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,15,Create Review
+1004936,Venkata Dumpa,venkatadumpa.nvidia@gmail.com,gmail.com,RC,2011,CodeReview,0,2,0,6,Create Review
+1005440,Woojae Lee,lee.woojae@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1005497,Tareq Sharafy,tareqsha@gmail.com,gmail.com,O,2011,Create Review,2,0,0,0,Create Review
+1000272,Jeff Breidenbach,breidenbach@gmail.com,gmail.com,ORC,2008,Create Review,1,1,0,2,Create Review
+1005765,Justin Jiang,jiangjun.jking@gmail.com,gmail.com,OC,2011,Create Review,2,0,0,2,Create Review
+1000192,Andre Oriani,aoriani@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1005961,Michael Fitzner,michael.fitzner@bmw-carit.de,bmw-carit.de,O,2011,Create Review,2,0,0,0,Create Review
+1010136,Aaron Irvine,irvdel@googlemail.com,googlemail.com,RC,2012,CodeReview,0,2,0,4,Create Review
+1001650,Francesc Josep Vilarino Guell,None,None,OR,2009,Create Review,1,1,0,0,Create Review
+1002464,Ben Winslow,rain@bluecherry.net,bluecherry.net,ORC,2009,Create Review,1,1,0,2,Create Review
+1010204,Vishal Bhoj,vishal.bhoj@linaro.org,linaro.org,ORC,2012,Create Review,1,1,0,1,Create Review
+1004639,David Berlin,dberlin@gmail.com,gmail.com,R,2010,CodeReview,0,2,0,0,Create Review
+1000351,Chuck Tuffli,ctuffli@gmail.com,gmail.com,OR,2008,Create Review,1,1,0,0,Create Review
+1001264,James Stokebrand,stokebrand@pv.com,pv.com,OC,2009,Create Review,2,0,0,4,Create Review
+1001436,Yan Weichuan,wchyan@marvell.com,marvell.com,OC,2010,Create Review,2,0,0,3,Create Review
+1006371,Bob Petersen,bob@shift-ltd.com,shift-ltd.com,OC,2011,Create Review,2,0,0,2,Create Review
+1006620,CogiLiu,cogiliu@fih-foxconn.com,fih-foxconn.com,ORC,2011,Create Review,1,1,0,6,Create Review
+1005159,İsmail Dönmez,ismail@namtrac.org,namtrac.org,ORC,2011,Create Review,1,1,0,3,Create Review
+1006523,Alistair Strachan,alistair.strachan@imgtec.com,imgtec.com,RC,2011,CodeReview,0,2,0,3,Create Review
+1005432,Yuanyuan Zhong,yuanyuan.zhong@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,2,Create Review
+1000778,Akio Kondo,kojiran@gmail.com,gmail.com,RC,2009,Comment,0,2,0,3,Create Review
+1005401,Andy Lee,andykslee@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,4,Create Review
+1006075,Jessica Nilsson,jessica.j.nilsson@stericsson.com,stericsson.com,RC,2011,CodeReview,0,2,0,2,Create Review
+1004944,Da Risk,da_risk+android@elyzion.net,elyzion.net,OC,2010,Create Review,2,0,0,2,Create Review
+1003087,Linus Shen,fishuman@gmail.com,gmail.com,OR,2010,Create Review,1,1,0,0,Create Review
+1004916,Cary Clark,cary@android.com,android.com,RC,2010,CodeReview,0,2,0,7,Create Review
+1006607,Claire Ho,claireho@google.com,google.com,VRC,2012,Verify,0,1,1,1,Create Review
+1001836,Mihai Preda,preda@android.com,android.com,VRC,2009,Verify,0,1,1,3,Create Review
+1003105,Thierry STRUDEL,thierry.strudel@stericsson.com,stericsson.com,RC,2011,CodeReview,0,2,0,3,Create Review
+1003341,Rajesh Sastrula,None,None,R,2010,CodeReview,0,2,0,0,Create Review
+1001332,Tom Gibara,tomgibara@googlemail.com,googlemail.com,ORC,2008,Create Review,1,1,0,2,Create Review
+1006140,None,sj0110.kim@samsung.com,samsung.com,RC,2011,CodeReview,0,2,0,1,Create Review
+1005180,Syed Asifful Dayyan,syed.ad@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,1,Create Review
+1001158,Rui Castro,rui.castro@gmail.com,gmail.com,OC,2008,Create Review,2,0,0,1,Create Review
+1000504,Ming-Feng Yang,formosalf@gmail.com,gmail.com,O,2008,Create Review,2,0,0,0,Create Review
+1005141,Karthikeyan Periasamy,kperia@codeaurora.org,codeaurora.org,OC,2010,Create Review,2,0,0,1,Create Review
+1001538,Angus Lees,alees@google.com,google.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1002669,Joshua Bartel,joshua.bartel@gmail.com,gmail.com,OR,2009,Create Review,1,1,0,0,Create Review
+1005119,Chong Zhang,chzhang@nvidia.com,nvidia.com,ORC,2010,Create Review,1,1,0,1,Create Review
+1006194,Tom Marlin,tomm@bsquare.com,bsquare.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1005085,Jeremy Gebben,jgebben@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,3,Create Review
+1004319,Susheel Kumar Yadav Yadagiri,syadagir@codeaurora.org,codeaurora.org,ORC,2010,CodeReview,1,1,0,4,Create Review
+1002959,Patrick Reiter Horn,patrick.horn@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,3,Create Review
+1001654,James Wylder,jbob0823@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1004148,Ambresh K,ambresh@ti.com,ti.com,RC,2011,CodeReview,0,2,0,1,Create Review
+1003145,Robert Green,rbgrn.net@gmail.com,gmail.com,OC,2010,Create Review,2,0,0,3,Create Review
+1001285,swetalp,swetalp@gmail.com,gmail.com,R,2010,CodeReview,0,2,0,0,Create Review
+1006554,Tobias Polley,tobias.polley@gmail.com,gmail.com,RC,2011,CodeReview,0,2,0,2,Create Review
+1006393,None,mthooft@google.com,google.com,RC,2011,CodeReview,0,2,0,1,Create Review
+1003001,Joshua Pollak,pardsbane@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1003395,Martin Brabham,optedoblivion@gmail.com,gmail.com,OC,2010,Create Review,2,0,0,1,Create Review
+1006114,Daniel Moore,dtmoore916@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1004028,Regis Montoya,r3gis.3r@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1004084,Eric Wijngaard,ericwijngaard@gmail.com,gmail.com,O,2010,Create Review,2,0,0,0,Create Review
+1006103,Sangcheol Lee,goodsc.lee@samsung.com,samsung.com,ORC,2011,Create Review,1,1,0,2,Create Review
+1002034,Sangjin Yun,sj.yun@worksmartlabs.com,worksmartlabs.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1004575,Takao Yoshinaka,yoshinaka@motoya.co.jp,motoya.co.jp,ORC,2011,Create Review,1,1,0,2,Create Review
+1005746,None,cjwdearman@googlemail.com,googlemail.com,RC,2011,CodeReview,0,2,0,1,Create Review
+1005265,MOKK,mocmoc416@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1002818,Gustavo Diaz Prado,x0083741@ti.com,ti.com,RC,2010,CodeReview,0,2,0,3,Create Review
+1006498,Matthijs Langenberg,mlangenberg@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,2,Create Review
+1000341,James E. Blair,corvus@gnu.org,gnu.org,ORC,2009,Create Review,1,1,0,5,Create Review
+1006056,Michael Elsdörfer,elsdoerfer@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1003037,Davy Lin,davy_lin@htc.com,htc.com,R,2010,CodeReview,0,2,0,0,Create Review
+1000854,Mac Wang,macwang1@gmail.com,gmail.com,ORC,2012,Create Review,1,1,0,4,Create Review
+1004557,None,debunne@google.com,google.com,R,2011,CodeReview,0,2,0,0,Create Review
+1006580,Bimal Patel,abp095@motorola.com,motorola.com,OC,2011,Create Review,2,0,0,3,Create Review
+1006538,Kim JaeYoung,w21522@motorola.com,motorola.com,R,2011,CodeReview,0,2,0,0,Create Review
+1006529,Viktor Smedby,v.smed.by@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1000240,Benzy Gabay,benzyg.ti@gmail.com,gmail.com,VRC,2009,Verify,0,1,1,2,Create Review
+1010238,Keita Kita,maoutwo@gmail.com,gmail.com,OVC,2012,Create Review,1,0,1,1,Create Review
+1004987,Adam Vollmer,volmarias@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1000914,Xiaoyang Yu (Max),max.a.yu@intel.com,intel.com,ORC,2009,Create Review,1,1,0,1,Create Review
+1001762,Deng Jiewen,djken2009@gmail.com,gmail.com,O,2009,Create Review,2,0,0,0,Create Review
+1003367,Akwasi Boateng,akwasi.boateng@ti.com,ti.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1004660,Nitin Kumbhar,nkumbhar@nvidia.com,nvidia.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1005370,Roberto Tyley,roberto.tyley@gmail.com,gmail.com,OVC,2012,Create Review,1,0,1,1,Create Review
+1003139,Dan Hazon,dan@mips.com,mips.com,O,2010,Create Review,2,0,0,0,Create Review
+1005291,kingmoon,kingmoon@gmail.com,gmail.com,O,2010,Create Review,2,0,0,0,Create Review
+1005347,Priya Vijayan ,priya.rvn@gmail.com,gmail.com,RC,2011,CodeReview,0,2,0,2,Create Review
+1001615,Hiroshi Ichikawa,None,None,ORC,2009,Create Review,1,1,0,1,Create Review
+1005122,Rain Chen,Rain_RY_Chen@acer.com.tw,acer.com.tw,OC,2010,Create Review,2,0,0,2,Create Review
+1006676,Jim Huang,jim.huang@linaro.org,linaro.org,VR,2011,CodeReview,0,1,1,0,Create Review
+1000663,Jonah Sherman,jcs1337@gmail.com,gmail.com,O,2008,Create Review,2,0,0,0,Create Review
+1002556,Vitaly Polonetsky,topixoft@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,5,Create Review
+1000314,Chris Elford,chris.l.elford@gmail.com,gmail.com,OC,2008,Create Review,2,0,0,8,Create Review
+1010214,Adam Cohen,adamcohen@google.com,google.com,RC,2012,CodeReview,0,2,0,4,Create Review
+1004077,Manuel Gauto,manuelg@manuwebdev.com,manuwebdev.com,RC,2011,CodeReview,0,2,0,3,Create Review
+1010211,Winson Chung,winsonc@google.com,google.com,VRC,2012,Verify,0,1,1,2,Create Review
+1000882,Marco Nelissen,marco.nelissen@gmail.com,gmail.com,RC,2009,CodeReview,0,2,0,3,Create Review
+1004650,Ola Olsson,ola1olsson@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1004704,Kwangwoo LEE,kwangwoo.lee@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,6,Create Review
+1001900,Xavier Boudet,None,None,R,2011,CodeReview,0,2,0,0,Create Review
+1006241,Waddah Kudaimi,wkudaimi@sta.samsung.com,sta.samsung.com,RC,2011,CodeReview,0,2,0,2,Create Review
+1002648,Johan Schöring,johan@bambuser.com,bambuser.com,ORC,2009,Create Review,1,1,0,3,Create Review
+1002906,Mark Piper,revbingo@gmail.com,gmail.com,ORC,2010,CodeReview,1,1,0,6,Create Review
+1003476,Rodrigo Damazio Bovendorp,rdamazio@google.com,google.com,O,2010,Create Review,2,0,0,0,Create Review
+1003177,Cytown,cytown@gmail.com,gmail.com,OC,2010,Create Review,2,0,0,1,Create Review
+1002260,None,joseph.swantek@motorola.com,motorola.com,R,2009,CodeReview,0,2,0,0,Create Review
+1004613,Rafal Nowosielski,rafal.nowosielski@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,1,Create Review
+1006773,Kevin Barry,kevin@teslacoilsw.com,teslacoilsw.com,ORC,2011,Create Review,1,1,0,2,Create Review
+1002227,Shawn.C Huang,shawn.c_huang@htc.com,htc.com,ORC,2010,CodeReview,1,1,0,1,Create Review
+1004970,Anders Gabert,anga@syntronic.com,syntronic.com,OR,2011,Create Review,1,1,0,0,Create Review
+1005567,Lee Byungil,bi4004.lee@samsung.com,samsung.com,RC,2011,CodeReview,0,2,0,1,Create Review
+1005103,Dominic Mitchell,dom@happygiraffe.net,happygiraffe.net,OC,2010,Create Review,2,0,0,7,Create Review
+1003604,LUIZ FERNANDO STEIN WETZEL,luizfsw@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,1,Create Review
+1002514,Carlos Santa,None,None,R,2010,CodeReview,0,2,0,0,Create Review
+1005116,John Eckerdal,john.eckerdal@sonyericsson.com,sonyericsson.com,R,2010,CodeReview,0,2,0,0,Create Review
+1005598,Gustavo Waku,gustavo.waku@gmail.com,gmail.com,ORC,2012,Create Review,1,1,0,1,Create Review
+1005083,Sascha Brawer,sascha@google.com,google.com,ORC,2010,Create Review,1,1,0,1,Create Review
+1002362,Jihoon Chung,jihoon@gmail.com,gmail.com,ORC,2009,Create Review,1,1,0,4,Create Review
+1006288,Kai Wei,kai.wei.cn@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1003802,Martin Hibdon,mah@android.com,android.com,RC,2010,CodeReview,0,2,0,1,Create Review
+1002832,Jordan Frank,jordan.w.frank@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1002010,Hisao Munakata,munakata.hisao@renesas.com,renesas.com,ORC,2009,Create Review,1,1,0,2,Create Review
+1005138,Gasol Wu,gasol.wu@gmail.com,gmail.com,ORC,2010,Create Review,1,1,0,2,Create Review
+1005893,Marcus Gustafsson,marcus.gstfssn@gmail.com,gmail.com,ORC,2011,Create Review,1,1,0,1,Create Review
+1005095,Christian Schmitt,chrschmitt@gmail.com,gmail.com,OC,2010,Create Review,2,0,0,1,Create Review
+1002937,GuoYun,fzhzhy@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1000947,Tim Ansell,mithro@gmail.com,gmail.com,OC,2008,Create Review,1,0,0,1,Create Review
+1000014,Bernhard Suter,Bernhard.R.Suter@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1005166,Richard Lowe,richlowe@richlowe.net,richlowe.net,O,2010,Create Review,1,0,0,0,Create Review
+1004882,Edward Savage-Jones,edward.savage-jones@sonyericsson.com,sonyericsson.com,R,2010,CodeReview,0,1,0,0,Create Review
+1003442,Greg Meiste,greg.meiste@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005279,Bin Jin,bjin1990@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1005110,Per Osbäck,per@osbeck.com,osbeck.com,O,2010,Create Review,1,0,0,0,Create Review
+1004602,Ken Radtke,kradtke@nvidia.com,nvidia.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005106,Peter Kuterna,peter.kuterna@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1000788,Vachara,kukgle@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1000720,Julian Shen,julianshen@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1000094,Sriram Raman,Sriram.Raman@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1000140,Adam Langley,agl@chromium.org,chromium.org,O,2008,Create Review,1,0,0,0,Create Review
+1005527,Evan Shaw,edsrzf@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1000941,MingDer Chou,mingderchou@gmail.com,gmail.com,OC,2008,Create Review,1,0,0,1,Create Review
+1000371,Daniel Berlin,dannyb@google.com,google.com,RC,2010,CodeReview,0,1,0,2,Create Review
+1004984,Kristopher Giesing,kgiesing@yahoo-inc.com,yahoo-inc.com,OC,2010,Create Review,1,0,0,3,Create Review
+1003776,Eric Luong,x0119002@ti.com,ti.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005561,Bing Xia,bxia@sta.samsung.com,sta.samsung.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1000577,Hein-Pieter van Braam,heinpieter.van.braam@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1004921,Uwe Voelker,uwe@uwevoelker.de,uwevoelker.de,O,2010,Create Review,1,0,0,0,Create Review
+1006424,Claes Elgemark,claes.elgemark@sonyericsson.com,sonyericsson.com,V,2012,Verify,0,0,1,0,Create Review
+1005792,None,prabhu.annabathula@motorola.com,motorola.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1004818,James Zdziebkowski,jznomoney@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1000949,Mark Ivey,mivey@google.com,google.com,O,2009,Create Review,1,0,0,0,Create Review
+1001489,Tianyang Zhou,zhoutianyang@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1004189,Anders Dellien,anders.dellien@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,3,Create Review
+1001533,None,michaelchan@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1005685,Vijay Yellapragada,vijay.yellapragada@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005616,Sushma Kyasaralli Thimmappa,sushma.kyasaralli.thimmappa@intel.com,intel.com,RC,2011,CodeReview,0,1,0,14,Create Review
+1005213,Swapnil Kamble,swap.kamble@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1004098,Tobias Brunner,tobias@strongswan.org,strongswan.org,O,2010,Create Review,1,0,0,0,Create Review
+1002740,Antti Hätälä,ahatala@nvidia.com,nvidia.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1004341,Julian Shandorov,jshandorov@mm-sol.com,mm-sol.com,O,2011,Create Review,1,0,0,0,Create Review
+1001765,None,nicky.7@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1004588,Ed Hsiao,ysakaed@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,1,Create Review
+1005987,Greg Hazel,ghazel@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1005349,Priya Vijayan,priya.vijayan@intel.com,intel.com,R,2011,CodeReview,0,1,0,0,Create Review
+1000479,Fabrice Colliot,f.colliot@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1004651,Pierre Tardy,tardyp@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1002255,Loren J. Rittle,ljrittle@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1002334,None,golephish@gmail.com,gmail.com,R,2009,CodeReview,0,1,0,0,Create Review
+1006220,Sahil Verma,vermasque@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005382,Steve Pomeroy,steve@staticfree.info,staticfree.info,O,2012,Create Review,1,0,0,0,Create Review
+1001518,EricaJoy,ericajoybaker@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1004144,Olivier André,olivier@arxdev.com,arxdev.com,OC,2010,Create Review,1,0,0,11,Create Review
+1005140,None,None,None,RC,2011,CodeReview,0,1,0,1,Create Review
+1010254,Fabien Duvoux,fabien.duvoux@gmail.com,gmail.com,RC,2012,CodeReview,0,1,0,1,Create Review
+1002057,Ramesh Gupta G,grgupta@ti.com,ti.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1004261,Nigel Tao,nigeltao@google.com,google.com,OC,2010,Create Review,1,0,0,1,Create Review
+1006337,Nicu Pavel,npavel@mini-box.com,mini-box.com,O,2011,Create Review,1,0,0,0,Create Review
+1002553,Jérémie Corbier,jeremie.corbier@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1005450,Mathias Jeppsson,mathias.jeppsson@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1002652,ssp system enterprise llc,sspweb0120070@gmail.com,gmail.com,R,2009,CodeReview,0,1,0,0,Create Review
+1000649,Jason Parekh,jasonparekh@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1003248,Steinar H.Gunderson,sesse@google.com,google.com,R,2011,CodeReview,0,1,0,0,Create Review
+1000019,Brian Code,Brian.Code@koolu.com,koolu.com,O,2008,Create Review,1,0,0,0,Create Review
+1000316,Chris McHarg,chris.mcharg@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1010203,Andrzej Pietrasiewicz,andrzej.p@samsung.com,samsung.com,O,2012,Create Review,1,0,0,0,Create Review
+1000698,Joe Scheidegger,joe.scheidegger@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1006505,Kenji Tan,tan.kenji.2020@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1003014,Deepak K,deepak.k@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006608,Matthias Granberry,matthias.granberry@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005678,sricharan,r.sricharan@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1001033,Pathompol Suebpradist,pathompol@gmail.com,gmail.com,OC,2008,Create Review,1,0,0,2,Create Review
+1010247,Kyungmin Park,kyungmin.park@samsung.com,samsung.com,V,2012,Verify,0,0,1,0,Create Review
+1003551,Adam Shanks,chainsdd@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1003038,Meng Hu,meng.hu@garmin.com,garmin.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006164,Michel Bonansea,m-bonansea@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003875,Kevin McDonagh,kevin@novoda.com,novoda.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1000926,Misael Lopez Cruz,x0052729@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003950,Erik Faye-Lund,kusmabite@googlemail.com,googlemail.com,O,2010,Create Review,1,0,0,0,Create Review
+1006739,Iain Merrick,husky@google.com,google.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1001864,Rabendra Patel,rabendra@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1004892,Tony Lofthouse,tony.lofthouse@ti.com,ti.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003861,Marcus Offesson,marcus.offesson@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1003649,NuttyKnot,nutty.knot@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,2,Create Review
+1003016,Duzy Chan,duzy@duzy.info,duzy.info,RC,2010,CodeReview,0,1,0,2,Create Review
+1003851,Evan Charlton,evanc@google.com,google.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1006604,Tomi Valkeinen,tomi.valkeinen@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003840,None,erowe@google.com,google.com,R,2011,CodeReview,0,1,0,0,Create Review
+1005112,Guru Nagarajan,gurunagarajan@google.com,google.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1002844,Cesar J. Alaniz,cesar.alaniz@gmail.com,gmail.com,R,2009,CodeReview,0,1,0,0,Create Review
+1003821,Alex Medina,medina@google.com,google.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003495,Atsushi Enomoto,atsushieno+android@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1010139,Jun Nakajima,jnakajim@gmail.com,gmail.com,V,2012,Verify,0,0,1,0,Create Review
+1006838,Jun Tian,jun.j.tian@intel.com,intel.com,V,2012,Verify,0,0,1,0,Create Review
+1005314,Jack Ren,jack.ren@intel.com,intel.com,V,2012,Verify,0,0,1,0,Create Review
+1002013,Nagarjuna Krsitam,x0043706@ti.com,ti.com,O,2009,Create Review,1,0,0,0,Create Review
+1001273,Sundar Jayakumar Dev,sundarjdev@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1003323,mark gross,mark97229@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1002143,Vimal Singh,vimalsingh@ti.com,ti.com,RC,2009,CodeReview,0,1,0,2,Create Review
+1001952,venkatesh viswanathan,venkateshv@ti.com,ti.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1002688,Vincent Palatin,vincent.palatin_android@m4x.org,m4x.org,O,2009,Create Review,1,0,0,0,Create Review
+1002752,Muralidharan,pmuralidharan@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,7,Create Review
+1003158,Paul Watts,paulcwatts@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1003440,Kevin McNeely,cysd.android@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1002199,None,jamespic@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1003504,Courtney Cavin,courtney.cavin@sonyericsson.com,sonyericsson.com,O,2010,Create Review,1,0,0,0,Create Review
+1004431,Rhys Hiltner,rhys@justin.tv,justin.tv,O,2010,Create Review,1,0,0,0,Create Review
+1003747,Patrick Tsai,yinghau76@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1004267,None,alexkrasov@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,2,Create Review
+1000600,Elay Hu,Elay_Hu@acer.com.tw,acer.com.tw,O,2010,Create Review,1,0,0,0,Create Review
+1002827,Stephan Peijnik,speijnik@gmail.com,gmail.com,OC,2009,Create Review,1,0,0,4,Create Review
+1003724,hugh kennedy,kennedyh@umich.edu,umich.edu,O,2010,Create Review,1,0,0,0,Create Review
+1003199,Andreas Agvard,andreas.agvard@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1004538,Zach Loder,zachary.loder@garmin.com,garmin.com,R,2010,CodeReview,0,1,0,0,Create Review
+1003726,Bob Hagemann,bob.hagemann@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1003727,Andrew Carra,andy.carra@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1001850,John Seghers,jseghers@cequint.com,cequint.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1003126,Alex Yakavenka,alex.yakavenka@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1004637,David M. Farler,dmfarler@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,2,Create Review
+1004638,Brian McCarthy Jr.,bmcc626@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1004518,Bai Tao,michaelbai@google.com,google.com,RC,2010,CodeReview,0,1,0,5,Create Review
+1002184,Don Mullis,don.mullis@gmail.com,gmail.com,OC,2009,Create Review,1,0,0,1,Create Review
+1004356,Rich Bayliss,richbayliss@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1004787,Patrice Tisserand,p.tisserand@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1004340,Ben Scholl,ben.scholl@garmin.com,garmin.com,RC,2010,CodeReview,0,1,0,8,Create Review
+1000867,Malcolm Parsons,malcolm.parsons@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1004855,Augustin Lu,Augustin_Lu@acer.com.tw,acer.com.tw,O,2010,Create Review,1,0,0,0,Create Review
+1000298,Paul.CJ Chen,chencjao@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1004481,Jeon Young Kyu,ykjeon.skw@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,1,Create Review
+1004373,Jairo Martin,Jairo.Martin@motorola.com,motorola.com,R,2010,CodeReview,0,1,0,0,Create Review
+1004355,Satish Kulkarni,Satish.Kulkarni@motorola.com,motorola.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1006507,Li Haifeng,omycle@gmail.com,gmail.com,OC,2011,Create Review,1,0,0,1,Create Review
+1001163,Ryan Gardner,ryebrye@gmail.com,gmail.com,OC,2008,Create Review,1,0,0,1,Create Review
+1003306,Mike Koss,mckoss@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1004016,Niranjan Pendharkar,npendhar@codeaurora.org,codeaurora.org,R,2010,CodeReview,0,1,0,0,Create Review
+1002721,Prasanna Kumar M.R.,prasanna.kumarmr@ti.com,ti.com,O,2010,Create Review,1,0,0,0,Create Review
+1003219,Ernesto Ramos Falcon,ernesto@ti.com,ti.com,R,2010,CodeReview,0,1,0,0,Create Review
+1003046,San Cho,san9972@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1003467,Ștefan Săftescu,stefan.saftescu@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1003463,Ryszard Wiśniewski,brut.alll@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1004964,Giridhar Sreenivas,giridhar.sreenivas@t-mobile.com,t-mobile.com,O,2010,Create Review,1,0,0,0,Create Review
+1003518,Gregory Bean,gbean@codeaurora.org,codeaurora.org,R,2010,CodeReview,0,1,0,0,Create Review
+1010076,Rafael Kalim Delgado,calimochoazucarado@gmail.com,gmail.com,RC,2012,CodeReview,0,1,0,4,Create Review
+1005086,Nagesh Subba Reddy,nageshsreddy@codeaurora.org,codeaurora.org,RC,2010,CodeReview,0,1,0,1,Create Review
+1005089,Niranjana Vishwanathapura,None,None,O,2010,Create Review,1,0,0,0,Create Review
+1005877,david.margin,david.margin@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1005107,Andre Silveira,andre.ssilveira@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1005047,Haynes Mathew George,None,None,O,2010,Create Review,1,0,0,0,Create Review
+1006706,None,x0099048@ti.com,ti.com,V,2012,Verify,0,0,1,0,Create Review
+1005126,Whino_Lin,Whino_Lin@acer.com.tw,acer.com.tw,O,2010,Create Review,1,0,0,0,Create Review
+1010185,richard ross,toastcfh@gmail.com,gmail.com,RC,2012,CodeReview,0,1,0,1,Create Review
+1005211,Daniel Wikman,dannewikman@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1010096,Vladimir Pantelic,vladoman@gmail.com,gmail.com,RC,2012,CodeReview,0,1,0,1,Create Review
+1001568,Naseer Ahmed,naseer.ahmed@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005172,None,None,None,R,2010,CodeReview,0,1,0,0,Create Review
+1002398,HK Chen,houkun.chen@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1001746,None,ejlaurent@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1000547,Urs Grob,grob.urs@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1005305,None,bluesky00956@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005445,K.-M. Hansche,kmhansche@googlemail.com,googlemail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005525,Hung-ying Tyan,tyandroid@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1004295,Ritu Srivastava,ritz.srivastava@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003210,Mike Playle,mike@vfx.org.uk,vfx.org.uk,O,2011,Create Review,1,0,0,0,Create Review
+1000132,Adam Haberlach,adam.haberlach@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1002897,Mirko Nasato,mirko@artofsolving.com,artofsolving.com,OC,2009,Create Review,1,0,0,5,Create Review
+1002806,Olivier Goutet,olivier.goutet@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1005675,Rocky Zhang,zhangyan.hit@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005632,Shane Allgeier,freakonaleash300@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1005633,Christian Brüggemann,c.brueggemann94@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1005634,Jacob Crawley,jacobcrawley@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1005635,Max Marroni,142turkeys@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1004641,Ravi Kumar Alamanda,ravialam@codeaurora.org,codeaurora.org,R,2011,CodeReview,0,1,0,0,Create Review
+1005718,Daniel Hillenbrand,daniel.hillenbrand@codeworkx.de,codeworkx.de,O,2011,Create Review,1,0,0,0,Create Review
+1005730,Kolja Dummann,k.dummann@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1005733,Jiejing Zhang,kzjeef.code@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1002800,zhangyong,zhangyong.net@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1005771,Gennady Trafimenkov,gennady.trafimenkov@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1001431,Kevin Wang,xuepu.wang@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,2,Create Review
+1002766,Jerry Brady,jerry.brady@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1001991,Akash Choudhari,akashc@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1004190,Sreenidhi Koti,sreenidhi@ti.com,ti.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1005883,Patrick Uiterwijk,puiterwijk@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005875,Kihyung Lee,kihyung2.lee@lge.com,lge.com,O,2011,Create Review,1,0,0,0,Create Review
+1005979,Peng Chang,Peng_Chang@acer.com.tw,acer.com.tw,O,2011,Create Review,1,0,0,0,Create Review
+1005026,Robert Niemi,robert.den.klurige@googlemail.com,googlemail.com,O,2011,Create Review,1,0,0,0,Create Review
+1003174,Oscar Montemayor,oam@google.com,google.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003782,Andreas Borglin,andreas.borglin@sonyericsson.com,sonyericsson.com,RC,2010,CodeReview,0,1,0,2,Create Review
+1006031,Santiago Carot-Nemesio,sancane@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1006046,Veeti Paananen,veeti.paananen@rojekti.fi,rojekti.fi,O,2011,Create Review,1,0,0,0,Create Review
+1002518,Jay Schroeder,jay.d.schroeder@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1000165,john.wang,john.wang@tvos.com,tvos.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006049,Kostya Dmitriev,kostya@dmitriev.in.ua,dmitriev.in.ua,O,2011,Create Review,1,0,0,0,Create Review
+1003366,Liejun Tao,L.J.Tao@motorola.com,motorola.com,RC,2010,CodeReview,0,1,0,5,Create Review
+1005051,None,kolby@google.com,google.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1005827,Yosuke Fujii,i.m.yfujii@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1005662,Sergey Ten,sergey.ten6@t-mobile.com,t-mobile.com,O,2011,Create Review,1,0,0,0,Create Review
+1006054,Edvard,edvard.holst@gmail.com,gmail.com,OC,2011,Create Review,1,0,0,2,Create Review
+1006621,XiaoXi Meng,xiaoxi.meng@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1006064,Stanley Lei,xiaofeng.lei.bj@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1002605,Ken Shirriff,kens@google.com,google.com,RC,2009,CodeReview,0,1,0,2,Create Review
+1005657,Erik Pasternak,roboerik@android.com,android.com,R,2011,CodeReview,0,1,0,0,Create Review
+1001901,Francois Mazard,None,None,RC,2009,CodeReview,0,1,0,1,Create Review
+1000784,Karl Rosaen,krosaen@google.com,google.com,RC,2008,Comment,0,1,0,2,Create Review
+1004172,Bansilal B,bansi.lal@wipro.com,wipro.com,O,2011,Create Review,1,0,0,0,Create Review
+1006206,None,guopengfeicts@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1002768,Dusan Veselinovic,veselinovic@pv.com,pv.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1004683,Jorge Bustamante,jbustamante@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1002215,Kevin Hilman,khilman@deeprootsystems.com,deeprootsystems.com,R,2009,CodeReview,0,1,0,0,Create Review
+1002354,Gary Sparkes,mokuba@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1006171,Fabio Di Lorenzo,dilorenzo1987@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1002328,Tony Yokoyama,chuuoudai@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1002327,Brian McKenna,puffnfresh@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1002189,None,phildubach@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1002295,T.O. Radzy Radzykewycz,radzy@windriver.com,windriver.com,OC,2009,Create Review,1,0,0,1,Create Review
+1006297,zhangjingmin,zhangjingmin10@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1002169,Pramodh AG,pramodh_ag@ti.com,ti.com,R,2009,CodeReview,0,1,0,0,Create Review
+1006324,Michael Fyles,mf@woaf.net,woaf.net,O,2011,Create Review,1,0,0,0,Create Review
+1002001,Wei Shuai,cpuwolf@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1005088,None,fabrice@android.com,android.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006353,Arnaud Brochard,arnaud.brochard@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1006126,Vikram Dhillon,dhillonv10@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1006332,Rocky Rhodes,rocky@google.com,google.com,RC,2011,CodeReview,0,1,0,5,Create Review
+1002109,Francesco Delfino,delfinof@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1002111,None,fjmustak@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1001675,Andy Trzeciak,andyt@appnotes.com,appnotes.com,O,2010,Create Review,1,0,0,0,Create Review
+1000507,Frank Maker,frank.maker@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,2,Create Review
+1001963,None,giri@pv.com,pv.com,RC,2009,CodeReview,0,1,0,2,Create Review
+1006087,Zhe Xiao,adrian.xiaoz@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1005744,Jonathan Parris,jdsp@mac.com,mac.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1006451,Balazs Szalkai,uzemelteto@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1001704,Niels Keeman,niels.keeman@tass.nl,tass.nl,O,2009,Create Review,1,0,0,0,Create Review
+1002085,S McCarthy,dc.disconnect@gmail.com,gmail.com,OC,2009,Create Review,1,0,0,5,Create Review
+1006427,fonix232,fonix232@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003570,Devin Deng,deng.devin@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1006246,Swandle,swandle@gmail.com,gmail.com,R,2011,CodeReview,0,1,0,0,Create Review
+1003589,Chang-man Lee,chang-man.lee@windriver.com,windriver.com,OC,2010,Create Review,1,0,0,3,Create Review
+1004331,Ayaz Abdulla,aabdulla@nvidia.com,nvidia.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1006347,Anton Denisyuk,jcyken@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1006536,Rémy Böhler,remyboehler@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003774,Liangtao Gao,gliangtao@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1005903,Matt Moohyun Shin,matt.shin@lge.com,lge.com,O,2011,Create Review,1,0,0,0,Create Review
+1006470,Jean-Marc AUFFRET,jeanmarc.auffret@orange-ftgroup.com,orange-ftgroup.com,O,2011,Create Review,1,0,0,0,Create Review
+1005622,Ton van der Poel,ton.van.der.poel@casema.nl,casema.nl,O,2011,Create Review,1,0,0,0,Create Review
+1001602,Alfonso Moratalla Moreno,alfonso.moratalla@gmail.com,gmail.com,O,2009,Create Review,1,0,0,0,Create Review
+1006250,None,jmeng@sta.samsung.com,sta.samsung.com,OC,2011,Create Review,1,0,0,2,Create Review
+1002361,Kazuhiro Ondo,kazuhiro.ondo@motorola.com,motorola.com,R,2011,CodeReview,0,1,0,0,Create Review
+1002415,Craig Newell,craign@ieee.org,ieee.org,RC,2011,CodeReview,0,1,0,1,Create Review
+1010189,Chinglan Ho,chinglanho@gmail.com,gmail.com,V,2012,Verify,0,0,1,0,Create Review
+1004125,Sverre Vegge,sverrevegge@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1001091,Riaz Rahaman,rahamanriaz@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,2,Create Review
+1006024,Frank Ciotti,fdciotti@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1001035,Patrik Ryd,patrik.ryd@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1006085,Donghua Yan,vettey.gxy@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1006828,Nathan Forbes,me@nathanforbes.com,nathanforbes.com,O,2011,Create Review,1,0,0,0,Create Review
+1006741,Daniel Fahlgren,fahlgren@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1001185,Saverio Labella,saverio.labella@teleca.com,teleca.com,RC,2009,CodeReview,0,1,0,3,Create Review
+1001572,Wade Wu,wade.wd.wu@gmail.com,gmail.com,RC,2009,CodeReview,0,1,0,1,Create Review
+1003933,Iñaki Rodríguez Carasa,gwydion@oletros.com,oletros.com,O,2010,Create Review,1,0,0,0,Create Review
+1006585,None,nb.h.tanaka@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1004322,Jiang Run,runner.j@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,1,Create Review
+1000469,Lin-Chieh Shangkuan,None,None,RC,2009,Comment,0,1,0,1,Create Review
+1005974,Dominic Binks,dbinks@quicinc.com,quicinc.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1001330,Tingmui Li,tingmui@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1000368,Don Andrus,dandrus.qualcomm@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1001202,Shan-Fu Chiou,sfchiou@gmail.com,gmail.com,RC,2009,Comment,0,1,0,1,Create Review
+1000920,Maurus Cuelenaere,mcuelenaere@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1006641,hisayoshi suehiro,bols-blue@lnc.jp,lnc.jp,RC,2011,CodeReview,0,1,0,1,Create Review
+1001145,Rohan Seth,rohan@android.com,android.com,RC,2008,Comment,0,1,0,1,Create Review
+1004349,Queenie Qu,queeniequ@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,1,Create Review
+1001471,Yun-Tung Hsieh,yundom@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1006727,Changmin Jeon,jcm1981@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1000819,ling.li,ling.li@motorola.com,motorola.com,R,2011,CodeReview,0,1,0,0,Create Review
+1005671,Dusan Maliarik,dusan.maliarik@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1006769,Paul Reioux,reioux@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1000471,Eric Shienbrood,ers@google.com,google.com,RC,2008,Comment,0,1,0,1,Create Review
+1000011,Andrew mast,andrewdmast@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1006515,None,jwkoelewijn@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003943,Durairaj Sendilkumaar (Sendil),sendilkumaar.durairaj@garmin.com,garmin.com,RC,2010,CodeReview,0,1,0,1,Create Review
+1002436,Christian Kuester,c.kuester@tarent.de,tarent.de,R,2009,CodeReview,0,1,0,0,Create Review
+1000444,Eden Huang,eden1205.huang@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1000309,Daniel Whelan,chobomuffin@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1002734,Yuping Luo,lypingsh@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1000810,Stefan Meier,lhppkfkb@trashmail.net,trashmail.net,RC,2008,Comment,0,1,0,1,Create Review
+1001493,Pavel Antokolsky aka Zigmar,zigmar@gmail.com,gmail.com,RC,2008,Comment,0,1,0,1,Create Review
+1005233,Doug Schaefer,cdtdoug@gmail.com,gmail.com,OC,2011,Create Review,1,0,0,4,Create Review
+1004473,Jason Chen,jasonchen@android.com,android.com,R,2010,CodeReview,0,1,0,0,Create Review
+1001109,Ravi Kumar,ravi.android@gmail.com,gmail.com,OC,2008,Create Review,1,0,0,2,Create Review
+1004031,Hristo Bojinov,hristo@google.com,google.com,RC,2010,CodeReview,0,1,0,13,Create Review
+1000675,Jesse Vincent,jessev@gmail.com,gmail.com,O,2008,Create Review,1,0,0,0,Create Review
+1001144,Rod Whitby,rod@whitby.id.au,whitby.id.au,O,2008,Create Review,1,0,0,0,Create Review
+1000911,Matt Lee,mattl@gnu.org,gnu.org,O,2008,Create Review,1,0,0,0,Create Review
+1004214,Vidya Rao,vidya.rao@motorola.com,motorola.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1006466,Sanghyun Lee,sanghyun75.lee@samsung.com,samsung.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1006840,Mark Underwood,mark.underwood@imgtec.com,imgtec.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003362,sujeet kumar baranwal,s-baranwal@ti.com,ti.com,V,2012,Verify,0,0,1,0,Create Review
+1006230,Dandawate Saket,None,None,RC,2011,CodeReview,0,1,0,1,Create Review
+1010154,Daryll Strauss,daryll.strauss@gmail.com,gmail.com,OC,2012,Create Review,1,0,0,1,Create Review
+1006851,None,s.ming1985@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1005082,Young-Ho Cha,ganadist@gmail.com,gmail.com,OC,2012,Create Review,1,0,0,1,Create Review
+1006341,Dragos Tatulea,dragos.tatulea@intel.com,intel.com,O,2011,Create Review,1,0,0,0,Create Review
+1003922,Andrei Popescu,andreip@google.com,google.com,R,2010,CodeReview,0,1,0,0,Create Review
+1006767,Haitao Huang,haitao.huang@intel.com,intel.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1006231,Robert Fekete,skyguru@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1004953,Benoit Cousson,b-cousson@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006491,G Anthony,a0783926@ti.com,ti.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006388,Loïc Habermacher,loic.habermacher@gmail.com,gmail.com,OC,2011,Create Review,1,0,0,1,Create Review
+1006181,Rob Clark,rob@ti.com,ti.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1005563,Qi Ling,qi.ling@samsung.com,samsung.com,R,2011,CodeReview,0,1,0,0,Create Review
+1005395,Joel Klussman,joel.klussman@motorola.com,motorola.com,RC,2011,CodeReview,0,1,0,3,Create Review
+1006125,Gilles Debunne,gilles.debunne@android.com,android.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003971,Jens Kristian Kjaergaard,tedjkk@gmail.com,gmail.com,O,2010,Create Review,1,0,0,0,Create Review
+1002303,Ming-Ta Yu,mingta.yu@gmail.com,gmail.com,RC,2010,CodeReview,0,1,0,2,Create Review
+1005726,Zhao Binbin,binbin.zhao@jrdcom.com,jrdcom.com,OC,2011,Create Review,1,0,0,1,Create Review
+1006211,Robert Morell,rmorell@nvidia.com,nvidia.com,R,2011,CodeReview,0,1,0,0,Create Review
+1006275,KyongHo Cho,pullip.linux@gmail.com,gmail.com,RC,2011,CodeReview,0,1,0,2,Create Review
+1005548,Daniel Wexler,danwexler@gmail.com,gmail.com,OC,2011,Create Review,1,0,0,1,Create Review
+1006758,Jon Starling,jstarlinguk@gmail.com,gmail.com,O,2011,Create Review,1,0,0,0,Create Review
+1004175,Rikard Ströman,rikard.stroman@stericsson.com,stericsson.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1003650,Marc Blank,mblank@android.com,android.com,R,2010,CodeReview,0,1,0,0,Create Review
+1006170,Johan Palmaeus,None,None,RC,2011,CodeReview,0,1,0,7,Create Review
+1005783,Syed Ibrahim Moosa,syedibrahim.moosa@broadcom.com,broadcom.com,RC,2011,CodeReview,0,1,0,1,Create Review
+1006036,Henrik Höglind,henrik.hoglind@sonyericsson.com,sonyericsson.com,RC,2011,CodeReview,0,1,0,9,Create Review
+1002141,Manjunatha GK,manjugk@ti.com,ti.com,R,2010,CodeReview,0,1,0,0,Create Review
+1003280,Will Newton,will.newton@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1004617,josh wu,josh.wu@atmel.com,atmel.com,R,2010,CodeReview,0,1,0,0,Create Review
+1001937,Yoshihiro Shimoda,yoshihiro.shimoda.uh@renesas.com,renesas.com,R,2010,CodeReview,0,1,0,0,Create Review
+1002106,Nathan Holstein,nathan.holstein@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005090,None,thanhbinh.gd@gmail.com,gmail.com,R,2010,CodeReview,0,1,0,0,Create Review
+1005093,Ákos Schneemaier,akos.schneemaier@gmail.com,gmail.com,OC,2010,Create Review,1,0,0,1,Create Review
+1002810,None,muni.anda@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1004252,Takeshi Aimi,takeshi.aimi@gmail.com,gmail.com,C,2011,Comment,0,0,0,1,Create Review
+1001113,Robert Chou,rbtchc@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1006550,Eduardo Valentin,eduardo.valentin@ti.com,ti.com,C,2011,Comment,0,0,0,1,Create Review
+1006837,Erik Hallberg,erik.hallberg.x@sonyericsson.com,sonyericsson.com,C,2011,Comment,0,0,0,1,Create Review
+1004910,Henrik Andersson,henrikb.andersson@sonyericsson.com,sonyericsson.com,C,2011,Comment,0,0,0,1,Create Review
+1004692,Chris Palmer,palmer@google.com,google.com,C,2010,Comment,0,0,0,1,Create Review
+1003944,Michael Kochendorfer,michael.kochendorfer@garmin.com,garmin.com,C,2010,Comment,0,0,0,1,Create Review
+1004684,None,satok16@gmail.com,gmail.com,C,2011,Comment,0,0,0,1,Create Review
+1006066,Gilles-Arnaud Bleu-Lainé,gilles@ti.com,ti.com,C,2011,Comment,0,0,0,3,Create Review
+1005485,Harald Johansen,harald.johansen@stericsson.com,stericsson.com,C,2011,Comment,0,0,0,2,Create Review
+1006086,Sjur Brændeland,sjur.brandeland@stericsson.com,stericsson.com,C,2011,Comment,0,0,0,3,Create Review
+1006116,Anders Widebrant,anders.widebrant@stericsson.com,stericsson.com,C,2011,Comment,0,0,0,1,Create Review
+1004647,Wink Saville,wink@saville.com,saville.com,C,2011,Comment,0,0,0,1,Create Review
+1004920,Amol Bhatkar,amolbhatkar@motorola.com,motorola.com,C,2011,Comment,0,0,0,1,Create Review
+1006485,Marco Hillenbrand,marco.hillenbrand@googlemail.com,googlemail.com,C,2011,Comment,0,0,0,1,Create Review
+1003499,harvey.acer,harvey.acer@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1004975,Tom Cherry,tcherry@nvidia.com,nvidia.com,C,2010,Comment,0,0,0,4,Create Review
+1001965,None,cwhuang01@gmail.com,gmail.com,C,2009,Comment,0,0,0,1,Create Review
+1002611,Dean Gardiner,gardiner91@gmail.com,gmail.com,C,2009,Comment,0,0,0,1,Create Review
+1005508,Rickard Möller,rickard.moller@sonyericsson.com,sonyericsson.com,C,2011,Comment,0,0,0,1,Create Review
+1002786,None,serdar@serdar-dere.net,serdar-dere.net,C,2009,Comment,0,0,0,2,Create Review
+1003078,Chris Rehbein,crehbein@gmail.com,gmail.com,C,2009,Comment,0,0,0,2,Create Review
+1003708,Lokesh Joshi,lokeshjoshi@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1005059,Vu Anh Duc,vuanhduc2685@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1003188,NicoB,brysnico@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1005001,Paco pepe,fjosuna@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1002312,Benny Wong,Benny.Wong@motorola.com,motorola.com,C,2010,Comment,0,0,0,1,Create Review
+1003194,Shay Elkin,shay@shayel.org,shayel.org,C,2010,Comment,0,0,0,2,Create Review
+1004038,Mattias Brodda,mattias.brodda@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1003778,None,mikew@google.com,google.com,C,2010,Comment,0,0,0,1,Create Review
+1005672,Milk lukewarm,lukumilk@gmail.com,gmail.com,C,2011,Comment,0,0,0,1,Create Review
+1006780,Jeff Davidson,jpd@google.com,google.com,C,2011,Comment,0,0,0,2,Create Review
+1010166,Emilio López,turl@tuxfamily.org,tuxfamily.org,C,2012,Comment,0,0,0,1,Create Review
+1006718,Marty Fouts,mfouts@sta.samsung.com,sta.samsung.com,C,2011,Comment,0,0,0,1,Create Review
+1005142,Xin Wan,wanxin.prc@gmail.com,gmail.com,C,2011,Comment,0,0,0,1,Create Review
+1006509,Aravinda B,aravinda.rsm@gmail.com,gmail.com,C,2011,Comment,0,0,0,1,Create Review
+1002335,roy_chiang,roychiang@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1001708,Nicolas Pierron,nicolas.b.pierron@gmail.com,gmail.com,C,2009,Comment,0,0,0,10,Create Review
+1004211,Andrew Hughes,ashughes@gmail.com,gmail.com,C,2010,Comment,0,0,0,10,Create Review
+1001114,rich cannings,rcannings@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1004043,Ola Johnsson,olaponken@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1005570,David Frey,sensirion.frey@gmail.com,gmail.com,C,2011,Comment,0,0,0,2,Create Review
+1004318,zhangbin,zhangbinseu@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1003297,Mikael Ohlson,mikael.ohlson@gmail.com,gmail.com,C,2010,Comment,0,0,0,3,Create Review
+1001295,Tadashi G. Takaoka,takaoka@android.com,android.com,C,2009,Comment,0,0,0,3,Create Review
+1004132,None,magnus.fors@sonyericsson.com,sonyericsson.com,C,2010,Comment,0,0,0,3,Create Review
+1002545,Nikolay Pisanov,Nikolay.Pisanov@teleca.com,teleca.com,C,2009,Comment,0,0,0,1,Create Review
+1005991,Stanislav Shalunov,shalunov@gmail.com,gmail.com,C,2011,Comment,0,0,0,2,Create Review
+1005873,Dallas Gutauckis,dgutauckis@myyearbook.com,myyearbook.com,C,2011,Comment,0,0,0,1,Create Review
+1002301,Steve Scalpone,steve.scalpone@windriver.com,windriver.com,C,2010,Comment,0,0,0,2,Create Review
+1004722,Eunice Yu,yonhee.yu@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1005794,Ryan Jones,rjones1@motorola.com,motorola.com,C,2011,Comment,0,0,0,1,Create Review
+1004906,Mike Corrigan,michael.corrigan@motorola.com,motorola.com,C,2010,Comment,0,0,0,16,Create Review
+1005065,None,isheriff@gmail.com,gmail.com,C,2010,Comment,0,0,0,1,Create Review
+1001021,solca - Otto Solares,osolares@gmail.com,gmail.com,C,2008,Comment,0,0,0,1,Create Review
+1005262,Nitin Bajaj,nbajaj@sta.samsung.com,sta.samsung.com,C,2011,Comment,0,0,0,1,Create Review
+1003185,None,limpbizkit@gmail.com,gmail.com,C,2010,Comment,0,0,0,2,Create Review
+1005079,Pravat Dalbehera,pravat.dalbehera@sonyericsson.com,sonyericsson.com,C,2010,Comment,0,0,0,1,Create Review
+1010158,Christopher Orr,chris@orr.me.uk,orr.me.uk,C,2012,Comment,0,0,0,1,Create Review
+1004191,Andrew Howe,andrewmshowe@gmail.com,gmail.com,C,2010,Comment,0,0,0,2,Create Review
+1004441,Sang-il Lee,gendoh@google.com,google.com,C,2010,Comment,0,0,0,1,Create Review
